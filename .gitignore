@@ -26,6 +26,7 @@ MANIFEST
 venv/
 ENV/
 env/
+.ven/
 
 # Airflow
 airflow-docker/logs/
@@ -43,11 +44,11 @@ airflow_login*
 .dockerignore
 
 # Data Files
+# Note: Large dataset file (5.3 GB) exceeds GitHub limits
+# Download separately from: https://www.yelp.com/dataset
 input/*.json
-input/*.csv
-input/*.txt
-output/*.json
-output/*.csv
+
+# Output files are tracked
 
 # Models
 models/*

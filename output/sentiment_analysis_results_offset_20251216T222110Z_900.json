@@ -1,0 +1,2061 @@
+{
+  "run_info": {
+    "timestamp": "2025-12-16T22:21:10.368479",
+    "batch_size": 100,
+    "offset": 900,
+    "input_file": "/opt/airflow/input/yelp_academic_dataset_review.json"
+  },
+  "totals": {
+    "processed": 100,
+    "successful": 98,
+    "healed": 2,
+    "degraded": 0
+  },
+  "rates": {
+    "success_rate": 0.98,
+    "healing_rate": 0.02,
+    "degraded_rate": 0.0
+  },
+  "sentiment_distribution": {
+    "POSITIVE": 68,
+    "NEGATIVE": 20,
+    "NEUTRAL": 12
+  },
+  "healing_statistics": {
+    "truncated_text": 2
+  },
+  "star_sentiment_correlation": {
+    "2.0": {
+      "POSITIVE": 0,
+      "NEGATIVE": 0,
+      "NEUTRAL": 1
+    },
+    "4.0": {
+      "POSITIVE": 1,
+      "NEGATIVE": 0,
+      "NEUTRAL": 0
+    },
+    "5.0": {
+      "POSITIVE": 1,
+      "NEGATIVE": 0,
+      "NEUTRAL": 0
+    },
+    "1.0": {
+      "POSITIVE": 0,
+      "NEGATIVE": 1,
+      "NEUTRAL": 0
+    },
+    "3.0": {
+      "POSITIVE": 0,
+      "NEGATIVE": 0,
+      "NEUTRAL": 1
+    }
+  },
+  "average_confidence_scores": {
+    "sucess": 0.9056,
+    "healed": 0.925,
+    "degraded": 0.0
+  },
+  "results": [
+    {
+      "text": "We recently purchased a used car for my son, it was a 2006 and of course comes with no warranty because of the age, but I expected them to send it home with us in a safe condition. It was supposedly just inspected and had a brand new PA state inspection and oil change sticker from Conicelli. Needless to say we got it home and the next day the front left tire blew . It was completely dry rotted on the backside and the tire shop ended up replacing both front tires for $450. Money is one thing but after seeing how the tire just shredded we could have been killed on I95 on the way home. The tire just entirely fell apart. Never would recommend them now.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-12-19 18:49:34",
+        "funny": 0,
+        "useful": 7,
+        "user_id": "XsDKAtfmf2Q8M_9zHvwnOA"
+      },
+      "review_id": "BAe2yGGtKYS2cuC77dyuIw",
+      "error_type": null,
+      "business_id": "YxhdfdhRZjJHPFxaADnNVg",
+      "original_text": "We recently purchased a used car for my son, it was a 2006 and of course comes with no warranty because of the age, but I expected them to send it home with us in a safe condition. It was supposedly just inspected and had a brand new PA state inspection and oil change sticker from Conicelli. Needless to say we got it home and the next day the front left tire blew . It was completely dry rotted on the backside and the tire shop ended up replacing both front tires for $450. Money is one thing but after seeing how the tire just shredded we could have been killed on I95 on the way home. The tire just entirely fell apart. Never would recommend them now.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 1.0,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Food is on point.  I am deducting 1 star for the condition of the bathrooms on the Friday night I went.. Toilet didn't flush, no toilet paper or paper towels and overall gross.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-07-25 20:30:51",
+        "funny": 1,
+        "useful": 0,
+        "user_id": "tp8Hka1k8dVzhLwhYFVClA"
+      },
+      "review_id": "IbOd5J6jv2y9qUylovHqwA",
+      "error_type": null,
+      "business_id": "0zH0l4Jbf-oove3cLvrFOg",
+      "original_text": "Food is on point.  I am deducting 1 star for the condition of the bathrooms on the Friday night I went.. Toilet didn't flush, no toilet paper or paper towels and overall gross.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.65,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Great food, awful service. I ordered online at 6:20, site said it would be ready at 6:40. I get there at 6:37 and i expected to wait a couple minutes but not the entire 20 minutes it takes to cook my food. They didn't even start cooking it till i got there. I leave at 7. They did nothing for the inconvenience and still made me pay full. Honestly, I'm so upset with how the whole situation was handled. Where is the customer service??",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-02-02 00:14:00",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "TAI2byXVLAam6uB8fao3pw"
+      },
+      "review_id": "ARaxXz4N90ew6wG-g5HLYg",
+      "error_type": null,
+      "business_id": "mQvRi0nm84Www71d4qOheQ",
+      "original_text": "Great food, awful service. I ordered online at 6:20, site said it would be ready at 6:40. I get there at 6:37 and i expected to wait a couple minutes but not the entire 20 minutes it takes to cook my food. They didn't even start cooking it till i got there. I leave at 7. They did nothing for the inconvenience and still made me pay full. Honestly, I'm so upset with how the whole situation was handled. Where is the customer service??",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Cute Japanese restaurant in Old City. Fresh sushi and amazing ramen. Wonderful customer service! This is my new favorite go to for sushi and ramen. There is a great selection on the menu.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-10-03 14:55:20",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "i_J86e4f0BCRPFlWGdnl7w"
+      },
+      "review_id": "jZ-VRHMJgWv6eNOdN-7Kzw",
+      "error_type": null,
+      "business_id": "8LonS_bxNmCDk3FWiG9lzA",
+      "original_text": "Cute Japanese restaurant in Old City. Fresh sushi and amazing ramen. Wonderful customer service! This is my new favorite go to for sushi and ramen. There is a great selection on the menu.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Loved the abvionce.. got pampered and relaxed. It was hard to get a drink order place. Was the only reason I did not give them a 5. Had to ask 4 people before I was told to go call roommservice on the white phone.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 2,
+        "date": "2017-04-19 19:58:09",
+        "funny": 1,
+        "useful": 2,
+        "user_id": "5BL_mcIfYvU9L08syGCfEg"
+      },
+      "review_id": "JjzsXc2o_u0CbfKeJQPTNw",
+      "error_type": null,
+      "business_id": "PY9GRfzr4nTZeINf346QOw",
+      "original_text": "Loved the abvionce.. got pampered and relaxed. It was hard to get a drink order place. Was the only reason I did not give them a 5. Had to ask 4 people before I was told to go call roommservice on the white phone.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.65,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Doctor Jeffers is one of the best vets I have ever dealt with, she shows compassion for all animals and can tell you within hours of literally anything that is wrong, plus very reasonable prices.\n\nDr Jeffers even accepts reptiles so being able to get that kind of service locally is great considering another vet on street road gouges you big time for just a vitamin shot ( 105.00 minimum charge )\n\nPlus the practice has just about every type of machinery to insure that they know exactly what is going on with your pet. She even has animals for adoption. \n\nOne great vet, as good as Dr Pol.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-04-19 23:46:23",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "vFZUDAxiFZlEQgkV3VSsBA"
+      },
+      "review_id": "PUyYGCPFUVy7AHVqlI2-aQ",
+      "error_type": null,
+      "business_id": "7-Vu4z0QdhCFizP-bHxoxQ",
+      "original_text": "Doctor Jeffers is one of the best vets I have ever dealt with, she shows compassion for all animals and can tell you within hours of literally anything that is wrong, plus very reasonable prices.\n\nDr Jeffers even accepts reptiles so being able to get that kind of service locally is great considering another vet on street road gouges you big time for just a vitamin shot ( 105.00 minimum charge )\n\nPlus the practice has just about every type of machinery to insure that they know exactly what is going on with your pet. She even has animals for adoption. \n\nOne great vet, as good as Dr Pol.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Mahi Mahi was great, large portion. You could split a meal.You must like smoked fish. Server was pleasant.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-11-18 23:48:27",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "9FKK21qKSxYoAIBUs4HzvQ"
+      },
+      "review_id": "RQ1MSJ6Rn4AZ2IJqEc6_vQ",
+      "error_type": null,
+      "business_id": "Sw7qcWQ5_iOUjBZMhSxyOQ",
+      "original_text": "Mahi Mahi was great, large portion. You could split a meal.You must like smoked fish. Server was pleasant.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Melissa is by far the BEST! I've gone to two other lash lounges and I will tell you Melissa outdoes them all. She knows her craft. She doesn't double or triple stack lashes. She gets you in and out. 100% recommend going to Melissa.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-05-26 20:05:46",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "rfvy5rlM-hauLAu5O0hLsg"
+      },
+      "review_id": "35I5ZE_kWNVWy93K3Qb0rg",
+      "error_type": null,
+      "business_id": "jeizWBHYh9bYkf-rey3Ekw",
+      "original_text": "Melissa is by far the BEST! I've gone to two other lash lounges and I will tell you Melissa outdoes them all. She knows her craft. She doesn't double or triple stack lashes. She gets you in and out. 100% recommend going to Melissa.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Best casino in Reno.   4 deck and 2 deck blackjack, real drink glasses (no plastic fratboy cups), amazing decorum that will burn your retinas, and the restaurants inside are better the big casinos on the strip by a factor of a thousand.\r\nThe rooms are stellar for the price.  Get a hot tub and chilllllll.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2005-05-15 00:39:29",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "c8qFkI_VusWo0xZvkjfBWQ"
+      },
+      "review_id": "JFjQ5RntPGhsNO2agAEYtg",
+      "error_type": null,
+      "business_id": "PY9GRfzr4nTZeINf346QOw",
+      "original_text": "Best casino in Reno.   4 deck and 2 deck blackjack, real drink glasses (no plastic fratboy cups), amazing decorum that will burn your retinas, and the restaurants inside are better the big casinos on the strip by a factor of a thousand.\r\nThe rooms are stellar for the price.  Get a hot tub and chilllllll.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "My wife and I had been wanting to go here but just hadn't made it a priority.  \n\nI had the fish and chips.  The batter wasn't thick, and it has a crispiness to it that was a great contrast to the moistness and juiciness of the fish.  I have to admit, when I'm not sure what to get I think of getting a burger or fish & chips, and there weren't any burgers on the dinner menu.  The serving size was 3 cod pieces, approx 4-6 oz, along with a generous serving of fries. Additionally, the tartar sauce appeared to be made in house, had a great flavor.  So, if you're in the mood for fish and chips, I would highly recommend getting them here...because while the serving size isn't as big as Great Basin's, it tastes way better.\n\nMy wife had the salmon tacos, and for the side she had the chicken tortilla soup.  While the tacos had some great flavors the salmon was a bit overcooked, thus making the tacos a bit overshadowed by the soup.  Similar to the fish & chips above, the serving size wasn't large, only 2 tacos, but again, the flavors were very good.\n\nIf you're starving and want a large meal with leftovers I'd recommend other places, but if you want a satisfying meal that's an appropriate size this place is very good.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2016-05-31 13:45:57",
+        "funny": 1,
+        "useful": 1,
+        "user_id": "SVTrj5zc7REiktlcwa-z7Q"
+      },
+      "review_id": "1Ejkx1stGB11yYfU17UQCA",
+      "error_type": null,
+      "business_id": "6iqDIQCE8sq7Xq1xvhG1Tg",
+      "original_text": "My wife and I had been wanting to go here but just hadn't made it a priority.  \n\nI had the fish and chips.  The batter wasn't thick, and it has a crispiness to it that was a great contrast to the moistness and juiciness of the fish.  I have to admit, when I'm not sure what to get I think of getting a burger or fish & chips, and there weren't any burgers on the dinner menu.  The serving size was 3 cod pieces, approx 4-6 oz, along with a generous serving of fries. Additionally, the tartar sauce appeared to be made in house, had a great flavor.  So, if you're in the mood for fish and chips, I would highly recommend getting them here...because while the serving size isn't as big as Great Basin's, it tastes way better.\n\nMy wife had the salmon tacos, and for the side she had the chicken tortilla soup.  While the tacos had some great flavors the salmon was a bit overcooked, thus making the tacos a bit overshadowed by the soup.  Similar to the fish & chips above, the serving size wasn't large, only 2 tacos, but again, the flavors were very good.\n\nIf you're starving and want a large meal with leftovers I'd recommend other places, but if you want a satisfying meal that's an appropriate size this place is very good.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The Lemon Cake is as good as it is heavy.    It was my second visit to Cake Life and I only chose not to get cupcakes because it would have been pure gluttony.   They ROCK!   Many more visits to come.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-09-21 00:06:12",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "kp0VIIHduhfVQSvsgRtskg"
+      },
+      "review_id": "6QY0KfUbIMSbVVNnSSes-g",
+      "error_type": null,
+      "business_id": "J-ciDDEdIHMcChGIyKZnOg",
+      "original_text": "The Lemon Cake is as good as it is heavy.    It was my second visit to Cake Life and I only chose not to get cupcakes because it would have been pure gluttony.   They ROCK!   Many more visits to come.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "They sat us within 5 minutes and then took 40 minutes to even bring out sodas. The table next to us had the same server and got their good before their beverages came out. After almost an hour there with no drinks we tracked down a manager who told us our good never even got entered. I'm on my honeymoon and the friend we were there with had a date to make. Appetizer was the only thing to make it out and was decent boneless wings. Even with the manager begging us to let her get our food together free and not walk out, the service was beyond dismal and slow. First and last time coming to a Beef's. Made us all late. If we had waited at our table for the food we would have made our year anniversary before it came out. Better choices for food elsewhere. Avoid this place at all costs",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-09-10 02:34:40",
+        "funny": 1,
+        "useful": 0,
+        "user_id": "xBNoFLK5NXzME_kV_ixfdg"
+      },
+      "review_id": "wAcqPJ0fA--rGQ9Mvj63tg",
+      "error_type": null,
+      "business_id": "IL4q5kYnSLSuhjlyxKuNMw",
+      "original_text": "They sat us within 5 minutes and then took 40 minutes to even bring out sodas. The table next to us had the same server and got their good before their beverages came out. After almost an hour there with no drinks we tracked down a manager who told us our good never even got entered. I'm on my honeymoon and the friend we were there with had a date to make. Appetizer was the only thing to make it out and was decent boneless wings. Even with the manager begging us to let her get our food together free and not walk out, the service was beyond dismal and slow. First and last time coming to a Beef's. Made us all late. If we had waited at our table for the food we would have made our year anniversary before it came out. Better choices for food elsewhere. Avoid this place at all costs",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 1.0,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Wildflower is a super scrum, cute little restaurant. I've been here twice now for lunch, unfortunately I am always too late for breakfast. Fortunately though, their lunch is delicious! I took my mum here for her birthday for lunch and we were both so pleased!! \n\nSad to say, but due to some health issues, I've had to really change my diet around. This was my first time going out to eat since being on this new regimen. I'm definitely limited, which is too bad, and there was a lot I couldn't have. The menu has good selections, but there is a lot with meat, and I've been a vegetarian for years. Regardless, they serve great food, I just like big menus. Everything is made in house and they use fresh and local ingredients. My mum got the Vermonter salad, which she LOVED!!! It had mixed greens, Vermont cheddar, applewood smoked bacon, pecans, and dried cherries. The dressing was a home made honey vinaigrette I believe. It came with two delicious pieces of muesli bread with a home made honey butter. YUM!! I had the tuna plate, which was great too. It had a very good portion of tuna salad, mixed greens, mixed veggies, and came with a biscuit with that delicious honey butter. It also came with a fresh fruit bowl!!!! I couldn't have the biscuit so I traded for muesli and man that stuff was delicious. My mum loves the biscuit too. Everything is definitely made with love and happiness here!!!\n\nThe patio is so cute, 4 tables on a nice little deck with fans and hanging lights. Our server was wonderful, SO kind and adorable. She even brought my mum\na homemade red velvet cupcake with a candle, which LOOKED amazing, and she thought was delicious. Another win at Wildflower, would love to come back for breakfast sometime.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 12,
+        "date": "2015-09-24 22:16:52",
+        "funny": 5,
+        "useful": 7,
+        "user_id": "OqEP5BAqe599Fxra7Xe_bw"
+      },
+      "review_id": "GNRfE14cCOBA3XasHftbDA",
+      "error_type": null,
+      "business_id": "JQz0_R70G3bjQ5dRqrhxKQ",
+      "original_text": "Wildflower is a super scrum, cute little restaurant. I've been here twice now for lunch, unfortunately I am always too late for breakfast. Fortunately though, their lunch is delicious! I took my mum here for her birthday for lunch and we were both so pleased!! \n\nSad to say, but due to some health issues, I've had to really change my diet around. This was my first time going out to eat since being on this new regimen. I'm definitely limited, which is too bad, and there was a lot I couldn't have. The menu has good selections, but there is a lot with meat, and I've been a vegetarian for years. Regardless, they serve great food, I just like big menus. Everything is made in house and they use fresh and local ingredients. My mum got the Vermonter salad, which she LOVED!!! It had mixed greens, Vermont cheddar, applewood smoked bacon, pecans, and dried cherries. The dressing was a home made honey vinaigrette I believe. It came with two delicious pieces of muesli bread with a home made honey butter. YUM!! I had the tuna plate, which was great too. It had a very good portion of tuna salad, mixed greens, mixed veggies, and came with a biscuit with that delicious honey butter. It also came with a fresh fruit bowl!!!! I couldn't have the biscuit so I traded for muesli and man that stuff was delicious. My mum loves the biscuit too. Everything is definitely made with love and happiness here!!!\n\nThe patio is so cute, 4 tables on a nice little deck with fans and hanging lights. Our server was wonderful, SO kind and adorable. She even brought my mum\na homemade red velvet cupcake with a candle, which LOOKED amazing, and she thought was delicious. Another win at Wildflower, would love to come back for breakfast sometime.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Worst roast pork sandwich I've ever had. The broccoli rabe was lifeless and freezing. It was so cold my cheese didn't melt. The bread was soggy and wet. Horrible. If I wasn't in an airport, I'd bring this back.",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-07-14 00:13:21",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "u3QY-afIktF3iUYHiKYT0g"
+      },
+      "review_id": "pD3eUWVZh7BRrj-ldf4LoA",
+      "error_type": null,
+      "business_id": "y44MbCvvtmg1FpkNGSWisw",
+      "original_text": "Worst roast pork sandwich I've ever had. The broccoli rabe was lifeless and freezing. It was so cold my cheese didn't melt. The bread was soggy and wet. Horrible. If I wasn't in an airport, I'd bring this back.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 1.0,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I always walk pass this place but decided to finally give it a try because of the reviews and the price. Overall, as someone already stated they have great apps but the entrees are left to be desired.\nConsidering each entree costs ~$8, you get what you pay for. I ordered the Pad Thai and it was bad. Way too sweet with no spicy kick to it. We also ordered the Seafood Crispy Noodles, Pearl Noodles, and a Beef rice dish. All were really mediocre. The Indian pancakes and chicken satay apps were great though. Idk why the entrees were so lackluster. I'm sad I didn't enjoy it more but I'm glad the total was cheap for a night out.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-07-25 07:41:23",
+        "funny": 1,
+        "useful": 0,
+        "user_id": "qwV1iiQRv6VukrUeirqToQ"
+      },
+      "review_id": "g734ECK2zY-JrGmvzom10g",
+      "error_type": null,
+      "business_id": "eaDZlSuVS0EY67Ke6pRP6Q",
+      "original_text": "I always walk pass this place but decided to finally give it a try because of the reviews and the price. Overall, as someone already stated they have great apps but the entrees are left to be desired.\nConsidering each entree costs ~$8, you get what you pay for. I ordered the Pad Thai and it was bad. Way too sweet with no spicy kick to it. We also ordered the Seafood Crispy Noodles, Pearl Noodles, and a Beef rice dish. All were really mediocre. The Indian pancakes and chicken satay apps were great though. Idk why the entrees were so lackluster. I'm sad I didn't enjoy it more but I'm glad the total was cheap for a night out.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.8,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Oh man! This is the spot right here! Everything is made to order and sooo worth the wait. I'm from Chicago and have been a self proclaimed sandwich expert for most of my life...this place deserves every bit of those 5 stars! Well done guys!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2013-12-29 01:51:38",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "pjIgWQ_x3zdJEjN35nARWA"
+      },
+      "review_id": "YM47FT1FlrhTqBPUI4_KvQ",
+      "error_type": null,
+      "business_id": "Ph6-SNyEK_CIOzARiJhG6A",
+      "original_text": "Oh man! This is the spot right here! Everything is made to order and sooo worth the wait. I'm from Chicago and have been a self proclaimed sandwich expert for most of my life...this place deserves every bit of those 5 stars! Well done guys!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Outrageous birthday cake! We chose the Devils Food Cake - with vanilla buttercream icing. It was delicious beyond words! 12 adults who typically shy away from high calorie sweets - ate every last bite! The staff were super friendly & accommodating (we probably could have ordered a bit more advanced) - can't say enough positives about our experience. So glad to know I also have a location closer to me in Old City. Wish I could have another piece of that cake!!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-09-18 16:50:37",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "1Y6JyxClyJyJoEqn2Goi_Q"
+      },
+      "review_id": "tQ0XA97ameRN3UBxEdbsgg",
+      "error_type": null,
+      "business_id": "vCHNWdW-ys-nWUx3Cpvk8Q",
+      "original_text": "Outrageous birthday cake! We chose the Devils Food Cake - with vanilla buttercream icing. It was delicious beyond words! 12 adults who typically shy away from high calorie sweets - ate every last bite! The staff were super friendly & accommodating (we probably could have ordered a bit more advanced) - can't say enough positives about our experience. So glad to know I also have a location closer to me in Old City. Wish I could have another piece of that cake!!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Great talent but that is not important when time\nIs more valuable. Sitting here on 3/23/18 at 11:28am. Supposedly opened at 11am. There are 5 of us waiting but no employee to provide service. Tsk, tsk Perfect Arch!",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-03-23 15:30:29",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "FeATs94eA1qDqoJR3nF67Q"
+      },
+      "review_id": "82O69BTaAmwLGb4z20wUiA",
+      "error_type": null,
+      "business_id": "tFUJRLtNgIGg8ifaDtM_Kg",
+      "original_text": "Great talent but that is not important when time\nIs more valuable. Sitting here on 3/23/18 at 11:28am. Supposedly opened at 11am. There are 5 of us waiting but no employee to provide service. Tsk, tsk Perfect Arch!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Had a great dinner at Spasso. My parents always request Oana and she is an awesome server-- answers questions, gives suggestions, and really knows the menu. We were quoted an hour wait, but were able to grab a high top in the bar area with no wait (they are full service).\n\nSpasso is Italian, but has its own little spin; it's not just the classic dishes of a typical Italian restaurant.\n\nThey start you off with bread and this delicious eggplant/pepper topping that is so refreshing. I typically love oil for bread, but love this alternative.\n\nI started with a Caesar salad which was perfect; just enough dressing, super fresh and I love the shaved Parmesan on top. For dinner I had pappardelle porcini which I think is the best item on the menu, it is thick pasta with sundried tomatoes, mushrooms and chicken with light sauce. It is totally delicious, and I had leftovers to have for lunch the next day.\n\nSpasso is definitely recommended for a great dinner in Media!",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-04-27 20:08:54",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "iXzIbm_zyZ6tZUM3amuJNQ"
+      },
+      "review_id": "eR2WN8v6l52W0jJ3NJIv-Q",
+      "error_type": null,
+      "business_id": "QkyEr9j7il9lJqseTbPe5w",
+      "original_text": "Had a great dinner at Spasso. My parents always request Oana and she is an awesome server-- answers questions, gives suggestions, and really knows the menu. We were quoted an hour wait, but were able to grab a high top in the bar area with no wait (they are full service).\n\nSpasso is Italian, but has its own little spin; it's not just the classic dishes of a typical Italian restaurant.\n\nThey start you off with bread and this delicious eggplant/pepper topping that is so refreshing. I typically love oil for bread, but love this alternative.\n\nI started with a Caesar salad which was perfect; just enough dressing, super fresh and I love the shaved Parmesan on top. For dinner I had pappardelle porcini which I think is the best item on the menu, it is thick pasta with sundried tomatoes, mushrooms and chicken with light sauce. It is totally delicious, and I had leftovers to have for lunch the next day.\n\nSpasso is definitely recommended for a great dinner in Media!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "My business, my parents, my ex-husband, my son and myself have accounts with this credit union. We have been with them for about 4 years and have been quite satisfied. With this many accounts and this many people there have been some errors however we go directly to the branch to have them corrected. So far that has worked out great for us.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-10-24 21:01:03",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "JjX-bYG0O5B21fklcZhmog"
+      },
+      "review_id": "qHU0E4AMN9kTGAgfVZQSGQ",
+      "error_type": null,
+      "business_id": "PGDRRyplRKHAixBZSBLseA",
+      "original_text": "My business, my parents, my ex-husband, my son and myself have accounts with this credit union. We have been with them for about 4 years and have been quite satisfied. With this many accounts and this many people there have been some errors however we go directly to the branch to have them corrected. So far that has worked out great for us.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "After numerous visits here, we really wanted to like this place but each time there has been a number of issues, many repeating. No matter the time of day, it seems to get pretty rowdy and my friends and I have had drinks spilled on us on multiple occasions. Almost every time I have been here with my fiancé or friends, it has taken an abnormally long time to get service whether it be inside, outside at a table or bar. The food is mediocre for the price and a few times the food took MUCH longer to come out than what we were told, and when asking management what was going on, we were told that the estimate was wrong and it was \"too bad\". Staff is rude and far from attentive, though it seems like this place is always over-staffed when we have been here. Amazes me that management allows such a huge lack in customer service. No longer wasting our time and money here, and we advise our friends and family to do the same. It is too much of a hit-and-miss to come here and attempt to have a good time.",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-07-26 14:21:11",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "IZ6HdSnPbJqvvG4S6GBaWg"
+      },
+      "review_id": "EWmkTBDTjOQpckZtyMudIQ",
+      "error_type": null,
+      "business_id": "oqP1oQEycpp4J6u5YebRoQ",
+      "original_text": "After numerous visits here, we really wanted to like this place but each time there has been a number of issues, many repeating. No matter the time of day, it seems to get pretty rowdy and my friends and I have had drinks spilled on us on multiple occasions. Almost every time I have been here with my fiancé or friends, it has taken an abnormally long time to get service whether it be inside, outside at a table or bar. The food is mediocre for the price and a few times the food took MUCH longer to come out than what we were told, and when asking management what was going on, we were told that the estimate was wrong and it was \"too bad\". Staff is rude and far from attentive, though it seems like this place is always over-staffed when we have been here. Amazes me that management allows such a huge lack in customer service. No longer wasting our time and money here, and we advise our friends and family to do the same. It is too much of a hit-and-miss to come here and attempt to have a good time.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 1.0,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Let me start by saying that the food here is by far the best Mexican I have had in St Pete.  It's nothing fancy and very small but if your looking for some good food and a beer this is the place to go to. Weekend nights do get a little hectic so I would recommend going on a weekday night or during the day so you can skip the long wait to place your order. For the meat lovers out there you can't go wrong with a chorizo taco and for the seafood junkies the fish tacos are amazing!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2011-11-29 22:39:37",
+        "funny": 0,
+        "useful": 4,
+        "user_id": "vuy4owE3qqM-VZ20AkIipw"
+      },
+      "review_id": "Ira2eu1GBLZhSF3U89lhNA",
+      "error_type": null,
+      "business_id": "UUOOjXAyk7dBpwTtKCnwyg",
+      "original_text": "Let me start by saying that the food here is by far the best Mexican I have had in St Pete.  It's nothing fancy and very small but if your looking for some good food and a beer this is the place to go to. Weekend nights do get a little hectic so I would recommend going on a weekday night or during the day so you can skip the long wait to place your order. For the meat lovers out there you can't go wrong with a chorizo taco and for the seafood junkies the fish tacos are amazing!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Wings Wings and more Wings!  Chatham Tap is my favorite place to get wings in the Indianapolis area.  They are meaty, the sauce is great, and I usually always have to take some home for the next day.  I went with a fairly large group and got to sample different things on the menu.  I highly recommend the onion rings!  They have a large selection of beer as well.  Since I heard they were a \"soccer bar\" I did not know what to expect when I first arrived.  However, the atmosphere is great.  It is full of fans of all different sports and the staff is willing to show whatever sport you want to watch on TV.  The service was excellent.  No one in my group had to ask for one thing while we were there.  I highly recommend this place to anyone who is up for a great meal, great service and a great time with friends.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-06-23 00:30:29",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "FfqnMS16PhYcXucWnIscgA"
+      },
+      "review_id": "2-gsHxBhcJ8ISR3ExmZ88w",
+      "error_type": null,
+      "business_id": "oThWInL6gUCt2d98fSIAfA",
+      "original_text": "Wings Wings and more Wings!  Chatham Tap is my favorite place to get wings in the Indianapolis area.  They are meaty, the sauce is great, and I usually always have to take some home for the next day.  I went with a fairly large group and got to sample different things on the menu.  I highly recommend the onion rings!  They have a large selection of beer as well.  Since I heard they were a \"soccer bar\" I did not know what to expect when I first arrived.  However, the atmosphere is great.  It is full of fans of all different sports and the staff is willing to show whatever sport you want to watch on TV.  The service was excellent.  No one in my group had to ask for one thing while we were there.  I highly recommend this place to anyone who is up for a great meal, great service and a great time with friends.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Very tasty sushi and very reasonably priced. Service was quick. 1 specific suggestions for improvement: menu photos\n\nAuthentic flavor and ultra healthy",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-03-07 05:25:32",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "PEAKaHUmII5hoOBNcRgdCw"
+      },
+      "review_id": "8N3IPLBJ5MH74NKfU-yayw",
+      "error_type": null,
+      "business_id": "1Pxg1AMf0rEn9QF__ZYoWw",
+      "original_text": "Very tasty sushi and very reasonably priced. Service was quick. 1 specific suggestions for improvement: menu photos\n\nAuthentic flavor and ultra healthy",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "First time tonight. We enjoyed our evening with a great server, Alison. She knew we had not been here before and helped us through everything. Most of all we spent a lot of time catching up with old friends, and we never felt hurried.\n\nThe food was great, and we tried everything from steaks to meat loafs. All was prepared to our request and the meals were great.\n\nLook forward to coming back. Hope it is just as good next time.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-03-15 02:23:08",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "NhrE1Sbr8Zb5mWmWb7j_LQ"
+      },
+      "review_id": "5JjukJUjOScwDBcFRmUYag",
+      "error_type": null,
+      "business_id": "1bJxvwuMTyXmQGu90WLPhA",
+      "original_text": "First time tonight. We enjoyed our evening with a great server, Alison. She knew we had not been here before and helped us through everything. Most of all we spent a lot of time catching up with old friends, and we never felt hurried.\n\nThe food was great, and we tried everything from steaks to meat loafs. All was prepared to our request and the meals were great.\n\nLook forward to coming back. Hope it is just as good next time.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I have been going to this dive bar for years. Jonny's has a great happy hour everyday and it's very laid back. The food is always on point though. You may think that a dive like this wouldn't have the best options but you are wrong my friend. They make all of their dough from scratch and their naked wings keep me coming back every time. Their Jon's salad with grilled chicken is also a staple of mine along with their pizza.\nThey also offer games such as trivia and even bingo. They are all free to play and you win some great stuff like gift certificates and even 1 cent pitchers of beer! Can't go wrong with that. \nIt is a smoking bar so be aware of that and it gets pretty bad when they are busy. It does get  crowded on game days or nights. Overall it's a great place to grab a few cheap beers with friends and a half-price pizza (did I mention they have 1/2 off pizza on certain days?)",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-08-25 14:59:32",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "DD9G_OSTN2xCjOBxHozTIA"
+      },
+      "review_id": "nxaau-glIc1QSYHHN1dbiA",
+      "error_type": null,
+      "business_id": "Up0a_4ZYoU5tTN6HXq59Lw",
+      "original_text": "I have been going to this dive bar for years. Jonny's has a great happy hour everyday and it's very laid back. The food is always on point though. You may think that a dive like this wouldn't have the best options but you are wrong my friend. They make all of their dough from scratch and their naked wings keep me coming back every time. Their Jon's salad with grilled chicken is also a staple of mine along with their pizza.\nThey also offer games such as trivia and even bingo. They are all free to play and you win some great stuff like gift certificates and even 1 cent pitchers of beer! Can't go wrong with that. \nIt is a smoking bar so be aware of that and it gets pretty bad when they are busy. It does get  crowded on game days or nights. Overall it's a great place to grab a few cheap beers with friends and a half-price pizza (did I mention they have 1/2 off pizza on certain days?)",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Yummy food,  they will veganize things for you as well. The servers are friendly and the restaurant is spacious and has a bar and a stage area. We have had our work Holiday party here for the past couple years, both parties turned out great. The guacamole is awesome!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2013-12-28 22:22:19",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "fSR8LJJ0Aa3w8HoaGyXYCA"
+      },
+      "review_id": "P6Kbftcn5GwvIo2xQyXFBg",
+      "error_type": null,
+      "business_id": "UX3eq0WsVva-cqlVrzyzFg",
+      "original_text": "Yummy food,  they will veganize things for you as well. The servers are friendly and the restaurant is spacious and has a bar and a stage area. We have had our work Holiday party here for the past couple years, both parties turned out great. The guacamole is awesome!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "West Ave. Grill- Its a happy place in Jenkintown with a lot of locals eating outside under umbrellas with their dogs at their feet and kids on their lap.  Inside their is a large and small area with a bar to eat and look past the parking lot to nicer part of Jenkintown town square.  The wait staff is always nice and the owner is often around to talk to.  Free dum dum lolly pops at the counter as you walk out and news papers to read if you are eating alone or want to check in on the Phillies.\nFood- always good. Great pancakes that are fluffy and crispy on the edges.  Kansas City  is a great breakfast too- for the most part great.\nBig salads could have more Stuff in them- more of the things that are supposed to be there- as described etc.  But a complaint is readily heard and they always try to make you happy.  It's Nice- try it.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-06-29 14:38:42",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "NPlCYdlumqM_Qgsi3Z_zaQ"
+      },
+      "review_id": "lqEa3ctJXMfAlA6RPiGrPA",
+      "error_type": null,
+      "business_id": "dERS4qwl9v-Gwft-Ug8APA",
+      "original_text": "West Ave. Grill- Its a happy place in Jenkintown with a lot of locals eating outside under umbrellas with their dogs at their feet and kids on their lap.  Inside their is a large and small area with a bar to eat and look past the parking lot to nicer part of Jenkintown town square.  The wait staff is always nice and the owner is often around to talk to.  Free dum dum lolly pops at the counter as you walk out and news papers to read if you are eating alone or want to check in on the Phillies.\nFood- always good. Great pancakes that are fluffy and crispy on the edges.  Kansas City  is a great breakfast too- for the most part great.\nBig salads could have more Stuff in them- more of the things that are supposed to be there- as described etc.  But a complaint is readily heard and they always try to make you happy.  It's Nice- try it.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "First time visit the other day, amazing!!!! Best hot chicken anywhere!!! Will def be a must stop every time we come to Nashville!!!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-01-02 05:09:44",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "_MQIjNg1lyNFuHYXXYzQ9Q"
+      },
+      "review_id": "Tk9jatdQqzbiZd3e_HcZoA",
+      "error_type": null,
+      "business_id": "oQ5CPRt0R3AzFvcjNOqB1w",
+      "original_text": "First time visit the other day, amazing!!!! Best hot chicken anywhere!!! Will def be a must stop every time we come to Nashville!!!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This was hands down the best tuna melt I have ever had. Very clean! This was also the best service I have ever had at a cafe. Awesome service and really on top of things. It's crazy because it is inside the grocery store! They should expand this cafe without the store attached!!! It would be amazing!!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-06-11 17:42:45",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "rdReTdv-T1008_0aTZATqg"
+      },
+      "review_id": "ttN6B9kanqlxOK-CbU3BLg",
+      "error_type": null,
+      "business_id": "DNkz1z53dS2CUUWI1Skg2g",
+      "original_text": "This was hands down the best tuna melt I have ever had. Very clean! This was also the best service I have ever had at a cafe. Awesome service and really on top of things. It's crazy because it is inside the grocery store! They should expand this cafe without the store attached!!! It would be amazing!!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Finally there is a place in Stl to eat sautéed seafood in  plastic bag! The sauce is a big plus. Good service.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2017-09-09 06:06:05",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "GwQEC1pEtRGMyhOCEizlLg"
+      },
+      "review_id": "A5RRp6HJOmoUKMfQFe0UNg",
+      "error_type": null,
+      "business_id": "jLaPtjlLfRSaoBWIcHcSQg",
+      "original_text": "Finally there is a place in Stl to eat sautéed seafood in  plastic bag! The sauce is a big plus. Good service.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.05,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I know I shouldn't expect much but everything I asked for that was on the drive thru menu was not available. I was actually afraid of what I was going to get once I did get it. I saw the movie \"waiting\".  Word of advice stay clear of this arch. Just so you know I was only trying to order a beverage how pathetic is that.",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2012-05-28 22:52:18",
+        "funny": 1,
+        "useful": 2,
+        "user_id": "MfDqmwzf1WxvJFtiRKi4Sg"
+      },
+      "review_id": "E-yGr1OhsUBxNeUVLDVouA",
+      "error_type": null,
+      "business_id": "kgMEBZG6rjkGeFzPaIM4MQ",
+      "original_text": "I know I shouldn't expect much but everything I asked for that was on the drive thru menu was not available. I was actually afraid of what I was going to get once I did get it. I saw the movie \"waiting\".  Word of advice stay clear of this arch. Just so you know I was only trying to order a beverage how pathetic is that.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "This place has a few good things going for it: \n\n1. REALLY good gravy fries...seriously, if you haven't had them yet - you haven't lived\n2. The staff here is friendly and entertaining! Don't let it alarm you if a waitress and a member of the kitchen staff randomly have a lover's quarrel...its all part of the character of the place! lol!\n3. It is the perfect bar to watch ANY Philly sports team...but especially the Phillies. \n4. Pretty good beer selection, too!",
+      "stars": 3.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-04-23 14:00:35",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "5Fk3pRHy5iqu3Bvo_zj5DA"
+      },
+      "review_id": "O-mQDmlUSDBURgiSTn75eg",
+      "error_type": null,
+      "business_id": "SIoCIxjn4jLt2O-4DajWJw",
+      "original_text": "This place has a few good things going for it: \n\n1. REALLY good gravy fries...seriously, if you haven't had them yet - you haven't lived\n2. The staff here is friendly and entertaining! Don't let it alarm you if a waitress and a member of the kitchen staff randomly have a lover's quarrel...its all part of the character of the place! lol!\n3. It is the perfect bar to watch ANY Philly sports team...but especially the Phillies. \n4. Pretty good beer selection, too!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "My wife and I stoped in for a couple of glasses of wine in the bar area.  It was a nice festive atmosphere.  Santa and Mrs. Clause even made a brief appearance.  The service was a little slow but we were ok with it because we wanted to take our time anyway.  We had a good time and the ambience is nice for a drink or 2.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2016-12-04 12:17:15",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "6jna5W1aqs4amKwBoCH2YQ"
+      },
+      "review_id": "4xWhGHrlX_F-lr0-JhyFTw",
+      "error_type": null,
+      "business_id": "YgMZm_alGFUeQO4hz9X9VA",
+      "original_text": "My wife and I stoped in for a couple of glasses of wine in the bar area.  It was a nice festive atmosphere.  Santa and Mrs. Clause even made a brief appearance.  The service was a little slow but we were ok with it because we wanted to take our time anyway.  We had a good time and the ambience is nice for a drink or 2.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "We found ourselves in South Tucson needing a good meal from somewhere other than the kitchens of the chain hotels surrounding the airport.  Thank you Yelpers for delivering another great place!\n\nA reconverted 1960's era A & W chain fast food stand [I can detect those old bone shards still!], we enjoyed a wonderful meal at a reasonable price.\n\nI had the catfish smothered in poblano sauce and melted cheese.  They told me it was farm catfish but it tasted like the catfish I used to catch out of a lake near my house as a little kid.  Farm fish never tastes this real.\n\nMy wife had chile relleno - fresh peppers, not surprising this time of year but definite kudos to the chef.\n\nThe late-stage adolescents with us enjoyed their enhiladas and chimichangas too.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2012-02-01 21:42:46",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "d_fc9n5mQFFdoUxrOSeMAQ"
+      },
+      "review_id": "3JPkxBo5HZBqsEfkNALKhg",
+      "error_type": null,
+      "business_id": "Wd9JBLjCCh5yTF0vPAxCAA",
+      "original_text": "We found ourselves in South Tucson needing a good meal from somewhere other than the kitchens of the chain hotels surrounding the airport.  Thank you Yelpers for delivering another great place!\n\nA reconverted 1960's era A & W chain fast food stand [I can detect those old bone shards still!], we enjoyed a wonderful meal at a reasonable price.\n\nI had the catfish smothered in poblano sauce and melted cheese.  They told me it was farm catfish but it tasted like the catfish I used to catch out of a lake near my house as a little kid.  Farm fish never tastes this real.\n\nMy wife had chile relleno - fresh peppers, not surprising this time of year but definite kudos to the chef.\n\nThe late-stage adolescents with us enjoyed their enhiladas and chimichangas too.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I recently went here with the hubby and a friend and we got the vegetable pakora to start- which was like veggies and hushpuppies all in one- YUM! Then we each got an entree: chicken tikki masala, lamb roganjosh, and lamb vindaloo. Each dish was superb, authentic, and exactly what it should be. The sauces for each were so good I wanted to drink them. Had I saved any room in my tummy, I just might have! \n\nThe place was reasonably priced and the staff/service was just okay. All-in-all, a great addition to Media's varied dinner spots. The lunch buffet looked promising, too, and is only $9.95 on weekdays, $10.95 on wknds.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-09-26 15:58:02",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "yPdPATvZ95l366Pp8nVzLQ"
+      },
+      "review_id": "Ssfv4gZ_xynqi8ipfzAs3Q",
+      "error_type": null,
+      "business_id": "cx2fwY66_xTNFo0p2EEC4g",
+      "original_text": "I recently went here with the hubby and a friend and we got the vegetable pakora to start- which was like veggies and hushpuppies all in one- YUM! Then we each got an entree: chicken tikki masala, lamb roganjosh, and lamb vindaloo. Each dish was superb, authentic, and exactly what it should be. The sauces for each were so good I wanted to drink them. Had I saved any room in my tummy, I just might have! \n\nThe place was reasonably priced and the staff/service was just okay. All-in-all, a great addition to Media's varied dinner spots. The lunch buffet looked promising, too, and is only $9.95 on weekdays, $10.95 on wknds.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Howard's the man for all things VW.  It can take a few weeks to make an appointment, but he's thorough, reliable, knowledgeable and efficient.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 3,
+        "date": "2009-05-23 12:21:25",
+        "funny": 0,
+        "useful": 5,
+        "user_id": "3V_eOrneBc8Y0HmxKys6Yg"
+      },
+      "review_id": "VQw3NHNQrJoxKpv-7Z8W2g",
+      "error_type": null,
+      "business_id": "VcTddMHnMZeKibhRFWuqVw",
+      "original_text": "Howard's the man for all things VW.  It can take a few weeks to make an appointment, but he's thorough, reliable, knowledgeable and efficient.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Best desserts ever! Dark and sinister is AMAZING. Really anything with that uses the chocolate ice cream is my favorite.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-02-11 05:52:56",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "YnT7fzXSQRHOuCKZTwkQVw"
+      },
+      "review_id": "QYulveDJFu7Qnl7EQKjG0w",
+      "error_type": null,
+      "business_id": "jQBPO3rYkNwIaOdQS5ktgQ",
+      "original_text": "Best desserts ever! Dark and sinister is AMAZING. Really anything with that uses the chocolate ice cream is my favorite.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Great oyster happy hours that go on from 5-7pm! My boyfriend and I shared a dozen oysters and a glass of champagne. Our tab was $24 with tip. Great value! I hear they have the best to-go cups in town, and we totally missed out on that. The staff were very nice and attentive. We almost felt too casual but we felt at home! I'd definitely go back :)",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-08-19 18:35:37",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "XuadFePn8P6l5epbEFnfKw"
+      },
+      "review_id": "gnEmBGyBs7DOtIXGmJQdKQ",
+      "error_type": null,
+      "business_id": "GBTPC53ZrG1ZBY3DT8Mbcw",
+      "original_text": "Great oyster happy hours that go on from 5-7pm! My boyfriend and I shared a dozen oysters and a glass of champagne. Our tab was $24 with tip. Great value! I hear they have the best to-go cups in town, and we totally missed out on that. The staff were very nice and attentive. We almost felt too casual but we felt at home! I'd definitely go back :)",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "If you want to eat at Prep & Pastry on the weekends, go right when it opens or before it closes. There is always a long wait because of how busy it gets - but the wait is always worth it. The food there is absolutely amazing. I go there often and love the green eggs & ham, bloody marys, and mimosas! They gave me a free pastry on my birthday once, it was delicious! I wish I remembered what it was called. \n\nI also love that they serve EXO coffee here (a local coffee) - nothing better than a great breakfast with great coffee to go with it!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-01-04 18:36:01",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "CJ1qOThxVs_V6VTYRL4Eaw"
+      },
+      "review_id": "o0RrxYEdVcKZtYKAEJCUNA",
+      "error_type": null,
+      "business_id": "UCMSWPqzXjd7QHq7v8PJjQ",
+      "original_text": "If you want to eat at Prep & Pastry on the weekends, go right when it opens or before it closes. There is always a long wait because of how busy it gets - but the wait is always worth it. The food there is absolutely amazing. I go there often and love the green eggs & ham, bloody marys, and mimosas! They gave me a free pastry on my birthday once, it was delicious! I wish I remembered what it was called. \n\nI also love that they serve EXO coffee here (a local coffee) - nothing better than a great breakfast with great coffee to go with it!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Great variety of coffees and teas. My current favorite is the iced dirty chai. The staff is very nice and acknowledges your existence without making a person feel rushed. Table sizes for everyone! They also feature local artists art to purchase. I enjoy the vibe.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-06-27 23:30:38",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "OSJ72ePGrAYxNN_dUIxZoQ"
+      },
+      "review_id": "BSX4AOxPmMXTrgaqJJwt-w",
+      "error_type": null,
+      "business_id": "GaktVVj3HWX0sVMlCXCWZw",
+      "original_text": "Great variety of coffees and teas. My current favorite is the iced dirty chai. The staff is very nice and acknowledges your existence without making a person feel rushed. Table sizes for everyone! They also feature local artists art to purchase. I enjoy the vibe.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The worker was awesome; this is a review for the company.  The price paid isn't in alignment to the service provided, it is just expensive. The worker is still paid hourly, which motivates him/her to work the hours. I believe it is a better way to hire someone off craigslist and pay them to do a service, rather than hourly.",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-03-15 02:46:41",
+        "funny": 0,
+        "useful": 6,
+        "user_id": "ulSJonL748r7a1W-t53z9w"
+      },
+      "review_id": "I7XGtAW-KkzVDvtCvXAY0g",
+      "error_type": null,
+      "business_id": "jsUzVBGEIoer6l_fxbad2A",
+      "original_text": "The worker was awesome; this is a review for the company.  The price paid isn't in alignment to the service provided, it is just expensive. The worker is still paid hourly, which motivates him/her to work the hours. I believe it is a better way to hire someone off craigslist and pay them to do a service, rather than hourly.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.65,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "The new Bacon-Bleu cheeseburger is excellent! Probably one of the best fast food burgers I've had in a while! Dave Thomas would be proud!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2010-03-14 05:14:25",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "CqRAt1eogaHCBBtF_shemg"
+      },
+      "review_id": "wXcsMgO27jDlr_8xuhn-pQ",
+      "error_type": null,
+      "business_id": "ruFtZKwlJASx5BTk1dh5AQ",
+      "original_text": "The new Bacon-Bleu cheeseburger is excellent! Probably one of the best fast food burgers I've had in a while! Dave Thomas would be proud!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Have only been once a couple of months ago, so maybe this was a one-off experience...Ordered a piece of carrot cake, which tasted fine. Certainly not the best I've ever had but good enough. The to go packaging was a bit overkill just for that one slice of cake, as was the $10 price tag. That being said, I'm sure the \"fanciness\" of the place is what makes it so appealing to folks. It really is quite unique and cute for our area and would be a good place to go with the gals (rather than my husband who hates all things trendy, lol). \n\nMy problem, though, was with the service. We placed our order for the carrot cake with a nice young teenager, and then waited. And waited. I could see the carrot cake just sitting in the pretty covered cake stand, and I felt really tempted to just slice it myself. After a bit (felt like 10 minutes, although I'm sure it was more like 5 or 6), another employee came and sliced the carrot cake, setting the slice on the back counter with the ticket. And then we waited. And waited some more. After about another 5 to 10 minutes, I flagged the teenager down and asked if he could box up the cake for us. He seemed confused, and it took an awkward minute-long exchange for him to understand we hadn't yet received our order. He did apologize for the wait, which I do appreciate, boxed up the cake, and then we were on our way.\n\nI should clarify that we did not go into the shop at a busy time. It was a relatively cool day and not many people were out. While there were maybe 2 to 3 tables seated, we were the only ones at the counter ordering. And while I'm sure the wait staff who repeatedly walked by our lonely piece of carrot cake sitting on the back counter had many important tasks...I just wanted to eat my $10 cake.\n\nFour stars for the cake. Two stars for the service.",
+      "stars": 3.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-06-11 21:09:53",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "7BXXIL5yqKE-lk_uuq8wHA"
+      },
+      "review_id": "srw8FcuizFYyHRWnLsYVOQ",
+      "error_type": null,
+      "business_id": "sr-5EY6bmp4jINhea06MjA",
+      "original_text": "Have only been once a couple of months ago, so maybe this was a one-off experience...Ordered a piece of carrot cake, which tasted fine. Certainly not the best I've ever had but good enough. The to go packaging was a bit overkill just for that one slice of cake, as was the $10 price tag. That being said, I'm sure the \"fanciness\" of the place is what makes it so appealing to folks. It really is quite unique and cute for our area and would be a good place to go with the gals (rather than my husband who hates all things trendy, lol). \n\nMy problem, though, was with the service. We placed our order for the carrot cake with a nice young teenager, and then waited. And waited. I could see the carrot cake just sitting in the pretty covered cake stand, and I felt really tempted to just slice it myself. After a bit (felt like 10 minutes, although I'm sure it was more like 5 or 6), another employee came and sliced the carrot cake, setting the slice on the back counter with the ticket. And then we waited. And waited some more. After about another 5 to 10 minutes, I flagged the teenager down and asked if he could box up the cake for us. He seemed confused, and it took an awkward minute-long exchange for him to understand we hadn't yet received our order. He did apologize for the wait, which I do appreciate, boxed up the cake, and then we were on our way.\n\nI should clarify that we did not go into the shop at a busy time. It was a relatively cool day and not many people were out. While there were maybe 2 to 3 tables seated, we were the only ones at the counter ordering. And while I'm sure the wait staff who repeatedly walked by our lonely piece of carrot cake sitting on the back counter had many important tasks...I just wanted to eat my $10 cake.\n\nFour stars for the cake. Two stars for the service.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.85,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Excellent tasting food and great service. Best burgers and pulled pork we have had in reno/sparks area.  It will now be our new spot",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-01-04 01:11:28",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "2yow2jF1U5s2Mv-5aeLhWg"
+      },
+      "review_id": "aQrkqLr6ualAe94-YwYXiQ",
+      "error_type": null,
+      "business_id": "tQ6VNQ9ezkxRE4bvu9WShQ",
+      "original_text": "Excellent tasting food and great service. Best burgers and pulled pork we have had in reno/sparks area.  It will now be our new spot",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The Smoked Salmon Frittata came with the smoked salmon, egg, potato, red bell peppers, goat cheese, horseradish -dil crema & fresh fruit. And it was as good as it sounded \n\nA very good mod dat brunch, dinner, and private dining spot.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2017-05-13 17:25:23",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "Fdrt8GUWl1jyN6EWS7mW2A"
+      },
+      "review_id": "iuwbcokeZwBNOnU1F3DI-w",
+      "error_type": null,
+      "business_id": "9V0LMtO1riRw9-pUuG4NFg",
+      "original_text": "The Smoked Salmon Frittata came with the smoked salmon, egg, potato, red bell peppers, goat cheese, horseradish -dil crema & fresh fruit. And it was as good as it sounded \n\nA very good mod dat brunch, dinner, and private dining spot.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Dinner for 9 was just fantastic. We celebrated a 70th birthday and received first class treatment all the way.  Sure it was very expensive but our steaks and entrees were outstanding. Great service, great food and great ambiance.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-05-26 01:25:27",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "SAcg8qt12JKyN5yLDjniaw"
+      },
+      "review_id": "AoK4JBbc8_4H8sMGyInY_w",
+      "error_type": null,
+      "business_id": "qDkbudGRfmJvf7trQZea4g",
+      "original_text": "Dinner for 9 was just fantastic. We celebrated a 70th birthday and received first class treatment all the way.  Sure it was very expensive but our steaks and entrees were outstanding. Great service, great food and great ambiance.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "The food is amazing! Fried pickles and the smash fries are so good!! The customer service was horrible though.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-10-24 20:39:17",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "Q8t6yZx8N6jea41GYwlIQw"
+      },
+      "review_id": "lu5_R05VXvKpHCIH_bPolw",
+      "error_type": null,
+      "business_id": "8gV3YUl8uqHnA-wZ3UZ5Dg",
+      "original_text": "The food is amazing! Fried pickles and the smash fries are so good!! The customer service was horrible though.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.55,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I heard a number of good things about this place ,but I was very disappointed. Parking is terrible which isn't a huge deal but be prepared to spend a few minutes looking for a parking spot. We ordered 5 tacos total and it took about 30 minutes to get them. It seemed a little ridiculous for a few tacos, plus they weren't even hot. Slightly warm at best. Taste was ok, but wasn't anything special at all. Buffalo chicken wasn't great, the  Bbq and Korean were decent and the shrimp was mediocre. Overall, I gave it a shot and it wasn't worth the wait and effort parking so I don't see us going back.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-01-30 04:38:48",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "H8NDL9vdqls0s48aHj7sSg"
+      },
+      "review_id": "NElfLcKdeTwS86PTPEkWjw",
+      "error_type": null,
+      "business_id": "EDjEVzmoQVHzboFqC-M6Ew",
+      "original_text": "I heard a number of good things about this place ,but I was very disappointed. Parking is terrible which isn't a huge deal but be prepared to spend a few minutes looking for a parking spot. We ordered 5 tacos total and it took about 30 minutes to get them. It seemed a little ridiculous for a few tacos, plus they weren't even hot. Slightly warm at best. Taste was ok, but wasn't anything special at all. Buffalo chicken wasn't great, the  Bbq and Korean were decent and the shrimp was mediocre. Overall, I gave it a shot and it wasn't worth the wait and effort parking so I don't see us going back.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "The gym part of City Fitness is better than most, good equipment, clean, variety, it's a nice gym. I find the rates reasonable and have been a member since they opened and will continue to be a member. So, for the rating I give the gym at CF a 3.5 star, I give MBSC a 1.5 star for an overall 2.5 star rating.\n\nMBSC review: I thought I would kick it up a notch so joined the MBSC thrive program at CF on South Street and tried it for three months. Trainers really aren't \"personal\" trainers. They have a set program that they put people through and you have very little to say about what you like/don't like. The trainers work with several people in a session so depending on how many people are in a session you could be waiting for the trainer to get back to you or waiting for the person in front of you to finish. One of the things that frustrated me is they want you to push through the routine they have come up for you in the hour's time. The sessions are hard with ropes, sleds, balls, bands, cables, weights and the most uncomfortable stationary bike I've ever had to sit on (and they make you end every session on the thing). No two sessions are alike - so if you like variety then great, if you like consistency or at least enough repetition to get the moves and form down then not so great. I seldom found a session to be fun or enjoyable, rather I often felt like I was a contestant on the Biggest Loser. They also play hip-hop all day long and you either like it or you don't. The environment and training is designed (in my opinion) to appeal to 20-30yo demographic.\n\nIf you really want to push yourself beyond your limits and don't care how you get there then you might really enjoy the MBSC program. If you want a professional personal trainer to spend quality time with you in achieving your goals and if you want a training program that you actually learn what muscle groups you are working and not just to be pushed through a routine then you probably won't like MBSC. Definitel...",
+      "stars": 2.0,
+      "status": "healed",
+      "metadata": {
+        "cool": 1,
+        "date": "2014-01-17 17:38:39",
+        "funny": 3,
+        "useful": 6,
+        "user_id": "SNeyQTRtCwow-8eS-RalZQ"
+      },
+      "review_id": "oyPscvzbdr9Cs2Q4fJlPCw",
+      "error_type": "too_long",
+      "business_id": "5kZtETKu37RuwHATrB4a5g",
+      "original_text": "The gym part of City Fitness is better than most, good equipment, clean, variety, it's a nice gym. I find the rates reasonable and have been a member since they opened and will continue to be a member. So, for the rating I give the gym at CF a 3.5 star, I give MBSC a 1.5 star for an overall 2.5 star rating.\n\nMBSC review: I thought I would kick it up a notch so joined the MBSC thrive program at CF on South Street and tried it for three months. Trainers really aren't \"personal\" trainers. They have a set program that they put people through and you have very little to say about what you like/don't like. The trainers work with several people in a session so depending on how many people are in a session you could be waiting for the trainer to get back to you or waiting for the person in front of you to finish. One of the things that frustrated me is they want you to push through the routine they have come up for you in the hour's time. The sessions are hard with ropes, sleds, balls, bands, cables, weights and the most uncomfortable stationary bike I've ever had to sit on (and they make you end every session on the thing). No two sessions are alike - so if you like variety then great, if you like consistency or at least enough repetition to get the moves and form down then not so great. I seldom found a session to be fun or enjoyable, rather I often felt like I was a contestant on the Biggest Loser. They also play hip-hop all day long and you either like it or you don't. The environment and training is designed (in my opinion) to appeal to 20-30yo demographic.\n\nIf you really want to push yourself beyond your limits and don't care how you get there then you might really enjoy the MBSC program. If you want a professional personal trainer to spend quality time with you in achieving your goals and if you want a training program that you actually learn what muscle groups you are working and not just to be pushed through a routine then you probably won't like MBSC. Definitely do a introductory program because the usual 30 day notice from the contract date applies if you cancel and it's $200+/mo program.",
+      "healing_action": "truncated_text",
+      "healing_applied": true,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Four stars for price. \nI drive truck, so I've eaten bbq all over America. This place is better than most, but it's certainly not 4 star worthy. I'd say the food is more like 2.5 star. \nThe cheeseburger was quite large and the meat was tasty. (Be advised: if you don't stop them they'll automatically put that disgusting invention called mayonnaise on it.) I got it plain so I can't comment on their lettuce/tomato game. \nThe pork bbq sammich was soggy on the bottom. Moist is good, but this was just plain wet. The meat itself was bland but not bad. \nThe bbq sauce is pretty good but not great. \nThe Mac & Cheese tasted ok but the noodles were way overcooked. It'd be much better if it were baked and had a little crustiness to it. \n\nIf I lived local I'm sure I'd come here occasionally.",
+      "stars": 3.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2018-03-15 20:12:40",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "1sgV5TOLiKCCi84No37qCA"
+      },
+      "review_id": "cp12LEo_c7SNbpscnbYjfA",
+      "error_type": null,
+      "business_id": "qONvIS94nZhXYm-jccXyuw",
+      "original_text": "Four stars for price. \nI drive truck, so I've eaten bbq all over America. This place is better than most, but it's certainly not 4 star worthy. I'd say the food is more like 2.5 star. \nThe cheeseburger was quite large and the meat was tasty. (Be advised: if you don't stop them they'll automatically put that disgusting invention called mayonnaise on it.) I got it plain so I can't comment on their lettuce/tomato game. \nThe pork bbq sammich was soggy on the bottom. Moist is good, but this was just plain wet. The meat itself was bland but not bad. \nThe bbq sauce is pretty good but not great. \nThe Mac & Cheese tasted ok but the noodles were way overcooked. It'd be much better if it were baked and had a little crustiness to it. \n\nIf I lived local I'm sure I'd come here occasionally.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.65,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "This is a nice Indian buffet with a pretty wide selection.  There is nothing that will make you say \"wow\", but many good Indian dishes for a very reasonable price.  Would return again.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2016-07-03 21:20:01",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "GZkFjlhsCmIxkxPywouEKQ"
+      },
+      "review_id": "k5foen6qbRssONseGEc0aw",
+      "error_type": null,
+      "business_id": "VeqkfRUzZAKlQer3npXPdQ",
+      "original_text": "This is a nice Indian buffet with a pretty wide selection.  There is nothing that will make you say \"wow\", but many good Indian dishes for a very reasonable price.  Would return again.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Staff member wouldn't let us use guest pass on our first time there. He said our only option was to buy at least a one day pass for $15/person. LOL. Went to Retro fitness for free trial; better equipment and environment:)",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-05-13 14:32:45",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "3JuwxZpmcmlkR3sHM9SLig"
+      },
+      "review_id": "kaig0jLD975wUkXCHwSsnw",
+      "error_type": null,
+      "business_id": "G0xz3kyRhRi6oZl7KfR0pA",
+      "original_text": "Staff member wouldn't let us use guest pass on our first time there. He said our only option was to buy at least a one day pass for $15/person. LOL. Went to Retro fitness for free trial; better equipment and environment:)",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.85,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I'm picky when it comes to pizza, and Brixx is a win every time! I love that their menu incorporates gluten-free options and perfectly sized lunch options. The wrap around bar also makes it the perfect stop to unwind after work, but arrive early, their patio fills up quickly!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2017-07-18 22:48:44",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "IlizsR-UvmFa1V9iskTYjg"
+      },
+      "review_id": "ly8zfN5hp4s57_MfL6sOEA",
+      "error_type": null,
+      "business_id": "geUiM_VTRmUz6dViO7E-jg",
+      "original_text": "I'm picky when it comes to pizza, and Brixx is a win every time! I love that their menu incorporates gluten-free options and perfectly sized lunch options. The wrap around bar also makes it the perfect stop to unwind after work, but arrive early, their patio fills up quickly!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I've been a few times and I haven't been disappointed yet. Its for meat eaters, vegetarians, and vegans. It's nice to have a healthy place to go to.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-01-21 16:52:55",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "J4U35rKMJu91Y2R9orntIg"
+      },
+      "review_id": "FNvdUOSG54IXzTXTYT6F9Q",
+      "error_type": null,
+      "business_id": "1lXdhiMNyUxtBlEAeRYCvQ",
+      "original_text": "I've been a few times and I haven't been disappointed yet. Its for meat eaters, vegetarians, and vegans. It's nice to have a healthy place to go to.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "the best frozen yogurt i have found in the central bucks area (at the time of the initial review).  everyone is super friendly and the flavors are good.  but i have since found another location that is a rival.  :-0",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2012-12-04 22:35:11",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "wMRABJye-vljUZxI2y7YTA"
+      },
+      "review_id": "UVyf-nDeSNrpJsDpbHJZGg",
+      "error_type": null,
+      "business_id": "3pCdFDNxXEKCW0Y_r77Qpg",
+      "original_text": "the best frozen yogurt i have found in the central bucks area (at the time of the initial review).  everyone is super friendly and the flavors are good.  but i have since found another location that is a rival.  :-0",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.8,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Simply put .. Awesome . Surrounded by lakes , the apartment complex has very peaceful environment . The staff of the leasing office are very helpful and friendly. I had very nice experience staying here and would recommend the apartment to anyone who is looking for peaceful  stay in St. Petersburg,FL.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2016-02-11 23:11:50",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "hV2sAyRMoR8nl4QKooT-oA"
+      },
+      "review_id": "lNioGFDOBciKxNd2ScWz7w",
+      "error_type": null,
+      "business_id": "k2SEley3DZTGb2RpnYr7Rw",
+      "original_text": "Simply put .. Awesome . Surrounded by lakes , the apartment complex has very peaceful environment . The staff of the leasing office are very helpful and friendly. I had very nice experience staying here and would recommend the apartment to anyone who is looking for peaceful  stay in St. Petersburg,FL.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "You must stop here while in NOLA.  It's a small place, but you feel like you just stepped into a bar during prohibition. While we were there, there was an amazing Jazz band. There is also a small room off to the side where you can sit on a coach and sip your cocktail.\n\nThe Vieux Carre was excellent here!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-09-09 18:49:01",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "OsAl8AbQMzOkqp2OMTvZww"
+      },
+      "review_id": "LyvpeUzOTmdPcg0VreiNIQ",
+      "error_type": null,
+      "business_id": "JLixvCikc5JYGcnvaqHoJg",
+      "original_text": "You must stop here while in NOLA.  It's a small place, but you feel like you just stepped into a bar during prohibition. While we were there, there was an amazing Jazz band. There is also a small room off to the side where you can sit on a coach and sip your cocktail.\n\nThe Vieux Carre was excellent here!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "So we've been wanting to try the sushiritos since they opened up a location closer to us and we finally tried it last Friday. \n\nI got the slammin' salmon and my wife got the crunch. I'd say they both definitely had fresh ingredients, and definitely tasted fresh, but I think the balance of flavors wasn't quite right for the slammin' salmon. Way too heavy on the sauce, completely overpowering the crisp fresh veggies and salmon. \n\nWe tried the Japanese fried chicken. Sauce is a little sweet and sour. And the chicken was a little dry. \n\nWe also tried their green tea and lemonade, which were pretty good, but you don't come to a place like this because their green tea and lemonade are their best things on the menu. \n\nOverall, you pay a high premium for a gimmicky meal. With this location being essentially at a revolving door of new customers on the corner of Penn's campus, I think they have the potential to do well. But I don't think I'll be coming back. We'll take our $34 elsewhere.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2015-03-05 01:59:10",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "jqTa-RtGU26q3TFTmMZOAw"
+      },
+      "review_id": "kyjaqazHasxVAweZG2xxPw",
+      "error_type": null,
+      "business_id": "P8QLcGZZOPgl9w_3ARBKiQ",
+      "original_text": "So we've been wanting to try the sushiritos since they opened up a location closer to us and we finally tried it last Friday. \n\nI got the slammin' salmon and my wife got the crunch. I'd say they both definitely had fresh ingredients, and definitely tasted fresh, but I think the balance of flavors wasn't quite right for the slammin' salmon. Way too heavy on the sauce, completely overpowering the crisp fresh veggies and salmon. \n\nWe tried the Japanese fried chicken. Sauce is a little sweet and sour. And the chicken was a little dry. \n\nWe also tried their green tea and lemonade, which were pretty good, but you don't come to a place like this because their green tea and lemonade are their best things on the menu. \n\nOverall, you pay a high premium for a gimmicky meal. With this location being essentially at a revolving door of new customers on the corner of Penn's campus, I think they have the potential to do well. But I don't think I'll be coming back. We'll take our $34 elsewhere.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.85,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "I definitely preferred the pizza from nabruzzi, but Enzo's is still a good take out option in the area. I recommend their meatball sub and garlic knots. The meatballs taste homemade and of good quality. We'll continue to get food from here, but I do wish they would still offer the pizzas they had when it was nabruzzi",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-06-17 19:41:34",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "T4ZUbz-rN5Lue9oJ5z8SMw"
+      },
+      "review_id": "YsO0W7CJVDwDyD4rLJXT2w",
+      "error_type": null,
+      "business_id": "kQANkgj6vHc1xCmxfNBNjA",
+      "original_text": "I definitely preferred the pizza from nabruzzi, but Enzo's is still a good take out option in the area. I recommend their meatball sub and garlic knots. The meatballs taste homemade and of good quality. We'll continue to get food from here, but I do wish they would still offer the pizzas they had when it was nabruzzi",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.65,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Stopped for a very healthy burger while visiting Philly after performing a nearby Prince tribute show; discovered one of the greatest burger places on planet earth! Thank you Alya & company at Bareburger!! \n(-: \n\nAndrew von Gregor \nPro Session & Touring Guitarist \nLos Angeles",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-07-03 20:14:37",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "9n--D6pBfsJM7UJuZMVzAA"
+      },
+      "review_id": "cQfnW8ICklfTjsZg7a7Wwg",
+      "error_type": null,
+      "business_id": "2er_V-oAd7IbQ5YTY56r7A",
+      "original_text": "Stopped for a very healthy burger while visiting Philly after performing a nearby Prince tribute show; discovered one of the greatest burger places on planet earth! Thank you Alya & company at Bareburger!! \n(-: \n\nAndrew von Gregor \nPro Session & Touring Guitarist \nLos Angeles",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I've only eaten at Cosi when I travel. I've eaten at this location a few times. I like their flatbreads and salads. \nThere bbq chicken Flatbread is good. It's a pretty good portion size too.",
+      "stars": 3.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-09-30 20:34:26",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "yiKkxcuQdB04PVUW7OgtNw"
+      },
+      "review_id": "mO5ORZk4nlKLtMI0PHMHtw",
+      "error_type": null,
+      "business_id": "NeY1bH6IKJxnn4YAixibsQ",
+      "original_text": "I've only eaten at Cosi when I travel. I've eaten at this location a few times. I like their flatbreads and salads. \nThere bbq chicken Flatbread is good. It's a pretty good portion size too.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This place has went down hill to me. At first, when it was just the owner at the one store on linbergh, the food was amazing. It seems since he started branching out, the service and food has not been up to par. I think they lost my service.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-12-29 17:09:35",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "OGWgaedcQxTPH6jnShdbjg"
+      },
+      "review_id": "REBUkv1sD96KNEc9-GmtgA",
+      "error_type": null,
+      "business_id": "dJUXONEvGDoxM3EPTzfY7g",
+      "original_text": "This place has went down hill to me. At first, when it was just the owner at the one store on linbergh, the food was amazing. It seems since he started branching out, the service and food has not been up to par. I think they lost my service.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Hated this place I went in to try an egg roll and get a sushi roll and both were bad the egg was horrible and the sushi was chewy so I wasnt surprised that I was the only one there",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-10-28 03:48:39",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "IoJCMMA9fNaSZ_WXGpnwbw"
+      },
+      "review_id": "Ci4-cJGw2rSEawQKaL0oTw",
+      "error_type": null,
+      "business_id": "kimOwpoIWzJJx7NHTAj74Q",
+      "original_text": "Hated this place I went in to try an egg roll and get a sushi roll and both were bad the egg was horrible and the sushi was chewy so I wasnt surprised that I was the only one there",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 1.0,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Great place to stay if you want to be on Bourbon street.  The staff is really hospitable and didn't fail me on food choices.  The room is nice and big.  However, I stayed in room 263 and thought it was perfect because it was not a room that faced Conti.  I was wrong because it was closer to the vending and ice machines.  The door/wall was thin enough that I heard conversations in the hall next to the vending machines.\n\nI would have rated the hotel with 4 stars if it wasn't for the thin walls.",
+      "stars": 3.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-10-28 02:09:13",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "KepicN2NnZ5aPXVlBypHOQ"
+      },
+      "review_id": "jHQiGVYdbT-9lQJmSg5rWQ",
+      "error_type": null,
+      "business_id": "2myVMP_l-9f9JIZewm19Cg",
+      "original_text": "Great place to stay if you want to be on Bourbon street.  The staff is really hospitable and didn't fail me on food choices.  The room is nice and big.  However, I stayed in room 263 and thought it was perfect because it was not a room that faced Conti.  I was wrong because it was closer to the vending and ice machines.  The door/wall was thin enough that I heard conversations in the hall next to the vending machines.\n\nI would have rated the hotel with 4 stars if it wasn't for the thin walls.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.8,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Went to ocharleys on a Sunday afternoon, it wasn't too busy but I guess our server was overwhelmed. He forgot our bread and butter. Forgot my fries multiple times, I was halfway done with my sandwich when my fries finally arrived. We got my son Sprite refilled at the bar after waiting so long for our waiter. We had a coupon that we told the server to add to our bill. Well he forgot to ring it up correctly, he got the manager to fix it. I might give ocharleys another try for lunch instead of dinner.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-04-11 22:59:53",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "5_vnXPI9dVsWuhkbBfNyHg"
+      },
+      "review_id": "2sS7PKfT06YeX-KJkgC-gQ",
+      "error_type": null,
+      "business_id": "eS5KCIrpEB1Bp-uU1JJYyw",
+      "original_text": "Went to ocharleys on a Sunday afternoon, it wasn't too busy but I guess our server was overwhelmed. He forgot our bread and butter. Forgot my fries multiple times, I was halfway done with my sandwich when my fries finally arrived. We got my son Sprite refilled at the bar after waiting so long for our waiter. We had a coupon that we told the server to add to our bill. Well he forgot to ring it up correctly, he got the manager to fix it. I might give ocharleys another try for lunch instead of dinner.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.85,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "this place SUCKS. Terrible service and overpriced mediocre food. This is my second time with the same results. I gave them the benefit of the doubt -perhaps having an off night the first time I went, but it was the exact same the second time around. Nothing innovative. They churn tables out and could care less that you are spending upwards of $150 for two. Save this one for the tourists.",
+      "stars": 1.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-10-11 23:43:09",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "v62bgesQ-CSGDS1rNqXZsw"
+      },
+      "review_id": "uQgLKU8M6k5O809xc97EyQ",
+      "error_type": null,
+      "business_id": "GBTPC53ZrG1ZBY3DT8Mbcw",
+      "original_text": "this place SUCKS. Terrible service and overpriced mediocre food. This is my second time with the same results. I gave them the benefit of the doubt -perhaps having an off night the first time I went, but it was the exact same the second time around. Nothing innovative. They churn tables out and could care less that you are spending upwards of $150 for two. Save this one for the tourists.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 1.0,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Is there a 12-step program to help manage a Reanimator Coffee problem? If so please share.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-02-23 19:45:23",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "yEBHkmp0qGax6d-gk0Wr9A"
+      },
+      "review_id": "ssHxl6hukWdxl3CMgs4zyQ",
+      "error_type": null,
+      "business_id": "2dlQX5sP9X6Dlm1MmNOlSw",
+      "original_text": "Is there a 12-step program to help manage a Reanimator Coffee problem? If so please share.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.85,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "They just opened today and WOW! Aren't we lucky to now have 2 meaderies within a mile or two of each other. \nMead is a type of fermented honey beverage. The ABV (alcohol percent) is generally 10-14% so more along the lines of wine than beer there. \n\nWe tried Goober Vitis (peanut butter and jelly), Suzy's Cherry Pie, and the coffee one. All were PERFECT. Flavors are pure, beautiful nose, all around great. \n\nThe space is very nice, nice big tables that seat 6-8 easily, an L-shaped bar, a stand-up bar around the tanks, then there are picnic tables outside.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-07-08 18:57:48",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "-THLGnsYKu3yQAsy_tt1fw"
+      },
+      "review_id": "Ug7X5xfd3YsnZwniqZ2HkQ",
+      "error_type": null,
+      "business_id": "qs9d6iGos9UO4BzhVmJ9UA",
+      "original_text": "They just opened today and WOW! Aren't we lucky to now have 2 meaderies within a mile or two of each other. \nMead is a type of fermented honey beverage. The ABV (alcohol percent) is generally 10-14% so more along the lines of wine than beer there. \n\nWe tried Goober Vitis (peanut butter and jelly), Suzy's Cherry Pie, and the coffee one. All were PERFECT. Flavors are pure, beautiful nose, all around great. \n\nThe space is very nice, nice big tables that seat 6-8 easily, an L-shaped bar, a stand-up bar around the tanks, then there are picnic tables outside.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I eat at Pina's or take-out about once a month. My favorites includes their dinner specials, cheesesteaks, calzones, and seafood dishes. The shrimp scampi appetizer (sans linguini) and steamed clams are excellent  inexpensive. Service is always flawless. For casual dining this place is very good.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-07-28 11:59:39",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "4fuO9GqV6ldWqorzo6AbYA"
+      },
+      "review_id": "qBJlgEwSLoW1WYFc7qOONw",
+      "error_type": null,
+      "business_id": "qot32tHVWZpiJibLTwQGyw",
+      "original_text": "I eat at Pina's or take-out about once a month. My favorites includes their dinner specials, cheesesteaks, calzones, and seafood dishes. The shrimp scampi appetizer (sans linguini) and steamed clams are excellent  inexpensive. Service is always flawless. For casual dining this place is very good.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Great place to watch footy.  I was visiting town for work and needed a place to watch my blues take on barfalona and came across Chatham.  It was a Tuesday so they had $4 Guiness and Black and Tans. Had their fish and chips which was new experience for me. Never had fish that was so soft after being fried, but I really enjoyed it, almost the texture of a donut. Saw my team win and had a great time at this pub.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2012-04-28 17:46:46",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "EMtkhNu-zv7QxokNRUB7Kg"
+      },
+      "review_id": "3EW04QGhYTskWEzKDewhoA",
+      "error_type": null,
+      "business_id": "z680Aylt8wN2KAeFM1hy-A",
+      "original_text": "Great place to watch footy.  I was visiting town for work and needed a place to watch my blues take on barfalona and came across Chatham.  It was a Tuesday so they had $4 Guiness and Black and Tans. Had their fish and chips which was new experience for me. Never had fish that was so soft after being fried, but I really enjoyed it, almost the texture of a donut. Saw my team win and had a great time at this pub.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is the place we have been searching for! My friend and I have tried several nail salons in Tampa and nobody could do designs and stuff like how we wanted so we found this place on Instagram and we will never go anywhere else again! We drive almost an hour to get here but it is so worth it! I have had 2 different people who both did exactly what I wanted and are extremely talented! Thank you Pamela and Steven! You all do amazing work!!!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-08-23 22:28:46",
+        "funny": 0,
+        "useful": 2,
+        "user_id": "-FFgJuDZLmcZtrxDTRC7sg"
+      },
+      "review_id": "cbYsdDN5bomxCXCNnMps6g",
+      "error_type": null,
+      "business_id": "my0bmPD5dgDFE1ia__LNlw",
+      "original_text": "This is the place we have been searching for! My friend and I have tried several nail salons in Tampa and nobody could do designs and stuff like how we wanted so we found this place on Instagram and we will never go anywhere else again! We drive almost an hour to get here but it is so worth it! I have had 2 different people who both did exactly what I wanted and are extremely talented! Thank you Pamela and Steven! You all do amazing work!!!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I can't say enough about Belinda and Jerry! They were so helpful and kind. I am a travel nurse and was leaving my car in Boise for the winter. I came in on a snowy December evening and Balinda reassured me that she would stay and wait for me and Jerry even drove me to my storage shed and helped me with my luggage.\nI am so happy with storage experiemce here and with the service I received. I highly recommend!!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-04-07 22:12:18",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "owTo8BNa8A3jT8bnU4Tb0A"
+      },
+      "review_id": "ac8npV9fJuZ0eCUwZZ7Muw",
+      "error_type": null,
+      "business_id": "3rgOVhF4xTn9obQ5tIe0AA",
+      "original_text": "I can't say enough about Belinda and Jerry! They were so helpful and kind. I am a travel nurse and was leaving my car in Boise for the winter. I came in on a snowy December evening and Balinda reassured me that she would stay and wait for me and Jerry even drove me to my storage shed and helped me with my luggage.\nI am so happy with storage experiemce here and with the service I received. I highly recommend!!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Unique  is very professional and, based on my experience, operates with the utmost of integrity.\nResponsive, transparent, honest are a few words that come to mind .  There technicians were efficient, clean and pleasant. Their pricing was extremely fair. I can state all of this with the highest degree of confidence because it is based on direct experience, not conjecture or inference. The sales person I dealt with (Mike P) and manager Chris are both top notch. \nThe house was left spotless, the work was performed to the highest standards. I recommend them highly.  I also encourage you to compare their prices to outfits of similar size and stature.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-01-09 22:21:22",
+        "funny": 0,
+        "useful": 3,
+        "user_id": "QD0DRN_ZY5czjHjzopEZzw"
+      },
+      "review_id": "XcH0DTa6rc6OBm5kNci3BA",
+      "error_type": null,
+      "business_id": "tkFXSTpI-JmDgzhPU8ZsVA",
+      "original_text": "Unique  is very professional and, based on my experience, operates with the utmost of integrity.\nResponsive, transparent, honest are a few words that come to mind .  There technicians were efficient, clean and pleasant. Their pricing was extremely fair. I can state all of this with the highest degree of confidence because it is based on direct experience, not conjecture or inference. The sales person I dealt with (Mike P) and manager Chris are both top notch. \nThe house was left spotless, the work was performed to the highest standards. I recommend them highly.  I also encourage you to compare their prices to outfits of similar size and stature.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This is our go-to takeout place. It has great food and exceptionally fast service. I live at 2601 Parkway and they deliver right to the door of my condo which many delivery places don't do. Their staff is friendly, make great pizza, and generally run such a business as best you can.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-11-12 17:51:40",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "2vvGv46x-nHQyk8GxJ23PA"
+      },
+      "review_id": "oVSmMGam9q_oh2XMNjDCcw",
+      "error_type": null,
+      "business_id": "1NCUTTp6rIyXpwUDVv9qOA",
+      "original_text": "This is our go-to takeout place. It has great food and exceptionally fast service. I live at 2601 Parkway and they deliver right to the door of my condo which many delivery places don't do. Their staff is friendly, make great pizza, and generally run such a business as best you can.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Top notch street tacos, great service and hand made horchata made this a top notch stop",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-03-15 20:36:09",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "4-A1SpF3lN-bXP_e54gAew"
+      },
+      "review_id": "UzY0Z5Mb-ynGtwdAjCygAQ",
+      "error_type": null,
+      "business_id": "jmwasbZfgj3honf79qKsnA",
+      "original_text": "Top notch street tacos, great service and hand made horchata made this a top notch stop",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I went in for a mani and pedi. My student was a nice person and we chatted. However it took 3 hours and my hands just look terrible. The feet are fine and feel great. Hands, just terrible. No one came and checked in if the work was done properly. I'm fine that it takes longer, they are there to learn. However, I shouldn't have been charged for the manicure (pedicure yes) or at least have someone else redo my nails. See the pictures for yourselves, this is 15 minutes out!\n\nEdit: just wanted to add that when I removed my shoes, my pedi was ruined. I asked if it was ready to put shoes on and I was told yes. 2 stars only because at least my student was nice but 0 for the service (34$!)",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-01-27 20:42:36",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "gXa1HYlzq63Y3AF8X2Qj0w"
+      },
+      "review_id": "-cHtqHUY02Wq3GfA-WQ2tg",
+      "error_type": null,
+      "business_id": "eaV07HGOcyb27XobHVl8LQ",
+      "original_text": "I went in for a mani and pedi. My student was a nice person and we chatted. However it took 3 hours and my hands just look terrible. The feet are fine and feel great. Hands, just terrible. No one came and checked in if the work was done properly. I'm fine that it takes longer, they are there to learn. However, I shouldn't have been charged for the manicure (pedicure yes) or at least have someone else redo my nails. See the pictures for yourselves, this is 15 minutes out!\n\nEdit: just wanted to add that when I removed my shoes, my pedi was ruined. I asked if it was ready to put shoes on and I was told yes. 2 stars only because at least my student was nice but 0 for the service (34$!)",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Very nice, quiet and dark restaurant. Chinese and sushi offered. Had szechuan chicken, hot and sour soup, and steamed rice. Hubbie had the prime rib and shrimp hot pot. Just the right amount of food. Didn't have to take any home. Service was excellent.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 2,
+        "date": "2017-03-03 23:50:03",
+        "funny": 2,
+        "useful": 1,
+        "user_id": "3KQPKFsnNdeAOqo5f8vTfw"
+      },
+      "review_id": "pvM11aNlL7Di1m4Ce8Vc1Q",
+      "error_type": null,
+      "business_id": "dpwkz52tHB2MCPv53I2aRA",
+      "original_text": "Very nice, quiet and dark restaurant. Chinese and sushi offered. Had szechuan chicken, hot and sour soup, and steamed rice. Hubbie had the prime rib and shrimp hot pot. Just the right amount of food. Didn't have to take any home. Service was excellent.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Frank is a great dentist and a very nice guy. He has a gentle manner, takes a sincere interest in his patients and in general is a top quality dentist and person. If you are in the market for a dentist he is an excellent choice. I've gone to him for years and know many others who have as well.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2011-01-08 23:18:31",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "tZuBp2yXvyS0l7bnyBNSfA"
+      },
+      "review_id": "gciXwamF0DoYp7WFqwl1vA",
+      "error_type": null,
+      "business_id": "4UtvsfTmnEuvQTwPcNq71Q",
+      "original_text": "Frank is a great dentist and a very nice guy. He has a gentle manner, takes a sincere interest in his patients and in general is a top quality dentist and person. If you are in the market for a dentist he is an excellent choice. I've gone to him for years and know many others who have as well.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This was a nice spot with sidewalk lounge seating. Even had a DJ outside Friday night. There was a walk up bar outside too. The decor inside was pretty sweet. We tried a few appetizers and they were both good! It is located in a trendy waterfront area.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2016-09-06 04:30:22",
+        "funny": 1,
+        "useful": 2,
+        "user_id": "PTVLT2wEUrFgr_hT5uldoA"
+      },
+      "review_id": "yEs51XOFi4dmEfBAkCAFPQ",
+      "error_type": null,
+      "business_id": "JOvNunKJlWhwJRwLmUR9ZA",
+      "original_text": "This was a nice spot with sidewalk lounge seating. Even had a DJ outside Friday night. There was a walk up bar outside too. The decor inside was pretty sweet. We tried a few appetizers and they were both good! It is located in a trendy waterfront area.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Our office went today for Friday's happy hour special.  Such a great deal, and it wasn't packed.  Didn't expect it, but the food and drinks on their specials-amazing!  Usually the happy hour offerings wouldn't be. Definitely try the pork sliders and the beignets for dessert.  Really fun time and great atmosphere.\n\nStaff was very friendly too!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2014-10-11 04:56:46",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "1OkMhU3AfrTGiXmq-q0AiA"
+      },
+      "review_id": "_zfr4ImlsKPKO7NClwlDvA",
+      "error_type": null,
+      "business_id": "skJ1w8B5YusIibyxH4ohxQ",
+      "original_text": "Our office went today for Friday's happy hour special.  Such a great deal, and it wasn't packed.  Didn't expect it, but the food and drinks on their specials-amazing!  Usually the happy hour offerings wouldn't be. Definitely try the pork sliders and the beignets for dessert.  Really fun time and great atmosphere.\n\nStaff was very friendly too!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Stopped in tonight for a light bite to eat. I was so impressed! Great service, great fresh, fresh food and beautiful atmosphere- we sat outside in the warm October evening air.  Lisa was a great host, explaining the menu and checked in with us frequently - we ended up chatting with her quite a bit and that only made the whole evening more enjoyable. What a wonderful place- we will certainly be back for more!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-10-14 01:12:42",
+        "funny": 1,
+        "useful": 0,
+        "user_id": "9a3N79voBcU4H9XQ8Ddb_Q"
+      },
+      "review_id": "lkdzFSsG-W1v7pP3nFMrGQ",
+      "error_type": null,
+      "business_id": "USekrAG0-4tJUs9V2gBBOQ",
+      "original_text": "Stopped in tonight for a light bite to eat. I was so impressed! Great service, great fresh, fresh food and beautiful atmosphere- we sat outside in the warm October evening air.  Lisa was a great host, explaining the menu and checked in with us frequently - we ended up chatting with her quite a bit and that only made the whole evening more enjoyable. What a wonderful place- we will certainly be back for more!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I've been to Lush in Arizona, S.F., San Jose and Maui. The one in New Orleans is My favorite one. I love how you can smell a Lush store from a block away. :) I've been to this one a few times, Always on Halloween. Always a fun time :)",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2010-03-13 04:20:17",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "8C8XSxu9iGIRzFncKcUsrg"
+      },
+      "review_id": "DJYMt0yId5Xm_ntDDSlCcQ",
+      "error_type": null,
+      "business_id": "J1O2KJ57jnAZlsdaNQCyCQ",
+      "original_text": "I've been to Lush in Arizona, S.F., San Jose and Maui. The one in New Orleans is My favorite one. I love how you can smell a Lush store from a block away. :) I've been to this one a few times, Always on Halloween. Always a fun time :)",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Love love love this place for HH n dinner is good too! Its ok for brunch, not as great as what people praise it to be. The Asian Nachos are the dish to get for HH. Its an entree itself! The other HH dishes are great too. The creme brulee is amazing as with their other desserts. The blueberry mojito is awesome along with the mango sling. Great place to celebrate birthdays and such.  Nice feel to it. Bar area gets crowded as it gets later for HH. As usual around the mall, finding parking sux!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-08-07 23:48:51",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "4qEBMFM2SiGe3oHCRfyNwQ"
+      },
+      "review_id": "8YLmnA2LuDj_XqEkc_GnzQ",
+      "error_type": null,
+      "business_id": "tYCok-NtWvg8_k7woeB83w",
+      "original_text": "Love love love this place for HH n dinner is good too! Its ok for brunch, not as great as what people praise it to be. The Asian Nachos are the dish to get for HH. Its an entree itself! The other HH dishes are great too. The creme brulee is amazing as with their other desserts. The blueberry mojito is awesome along with the mango sling. Great place to celebrate birthdays and such.  Nice feel to it. Bar area gets crowded as it gets later for HH. As usual around the mall, finding parking sux!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Delicious top shelf pastries. I am outraged at the poor ratings. If you're looking for cheapness over flavor then go to Panera. Service has always been exceedingly pleasent when I go, and I am an obnoxious needy customer. We are so excited to have them make macaroons for our wedding.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2013-08-03 14:48:54",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "b5o-ElYdBPZKix1oOhPoiw"
+      },
+      "review_id": "B94MdZHqZrfbefh5puju_w",
+      "error_type": null,
+      "business_id": "5TVWytR2oNbSKYgfxypuBw",
+      "original_text": "Delicious top shelf pastries. I am outraged at the poor ratings. If you're looking for cheapness over flavor then go to Panera. Service has always been exceedingly pleasent when I go, and I am an obnoxious needy customer. We are so excited to have them make macaroons for our wedding.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I could be craving pizza and be walking by and STILL not go in again. I will say the ingredients are definitely fresh and service was great however the pizza is just plain not good. The crust is so thin that the pizza is cold within a few minutes and it was just a little floppy and bland. I wanted to love this place but with so many other pizzerias in the area I won't be going back.",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-11-12 18:28:06",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "ncWuUSITGNp8Q2-WHjtCLw"
+      },
+      "review_id": "Hvw1Hxmla7phoWVpyxBCHQ",
+      "error_type": null,
+      "business_id": "u7_3L1NBWgxhBM_B-cmmnA",
+      "original_text": "I could be craving pizza and be walking by and STILL not go in again. I will say the ingredients are definitely fresh and service was great however the pizza is just plain not good. The crust is so thin that the pizza is cold within a few minutes and it was just a little floppy and bland. I wanted to love this place but with so many other pizzerias in the area I won't be going back.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.9,
+      "predicted_sentiment": "NEGATIVE"
+    },
+    {
+      "text": "Love the tap room, but I can't seem to get the hours of business right.  My first visit was a kinda a let down.  I had heard that bier was the place to go for great beers in Indianapolis, but I only found 2 that I liked and only 1 was memorable.  However, bier rotates their taps weekly and does not seem to have any regular taps, I like this because it means that they are constantly challenging themselves to create a better beer.   The tap room is a lot of fun too with people constantly revolving around the taps to taste and find their favorite for the week and then relaxing and talking in the lounge area.  I only gave them 3stars this time but I look forward to improving their score after future visits.",
+      "stars": 3.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2012-12-04 02:39:09",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "6AYTZLiwTHIn4gTbCl7JMA"
+      },
+      "review_id": "FEcORupb9Fep465-KFUKcw",
+      "error_type": null,
+      "business_id": "7clCBgNbd-x2Wj96lZ6Mjw",
+      "original_text": "Love the tap room, but I can't seem to get the hours of business right.  My first visit was a kinda a let down.  I had heard that bier was the place to go for great beers in Indianapolis, but I only found 2 that I liked and only 1 was memorable.  However, bier rotates their taps weekly and does not seem to have any regular taps, I like this because it means that they are constantly challenging themselves to create a better beer.   The tap room is a lot of fun too with people constantly revolving around the taps to taste and find their favorite for the week and then relaxing and talking in the lounge area.  I only gave them 3stars this time but I look forward to improving their score after future visits.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.85,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "Beautifully sweet ending to a sweet trip to NOLA with the girls. We stumbled upon this after a delicous savory lunch nearby at Cochon (review to follow). Sweet Confections is on Magazine St, around corner from the art gallery strip on Julia St.   We had a sampling of cupcake (chocolate with mocha filling) and truffles (raspberry, creme brulee, and orange).  Cupcake was good, mocha filling best part. Rasberry truffle was my fav, love the dark chocolate so it's not cloyingly sweet. The coffee was a wonderful chaser, not overly burnt, smoky, or acidic... I usually have coffee with milk n sugar, forgot this time, but I didn't even need it!  Seating was nice, with a few cafe tables inside. Enough for our 6-girl troop. And service was great, helpful with flavor suggestions and labelling.  Gave 4 of 5 stars because maybe they could benefit from one more equally gracious staff person.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2012-04-28 13:09:12",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "sws7O4Ek6gq6fTRA5d-rWw"
+      },
+      "review_id": "o8Amz_DLuluPmF6HD9Lesg",
+      "error_type": null,
+      "business_id": "g5ogvPhw3PSobtaZFkdEXg",
+      "original_text": "Beautifully sweet ending to a sweet trip to NOLA with the girls. We stumbled upon this after a delicous savory lunch nearby at Cochon (review to follow). Sweet Confections is on Magazine St, around corner from the art gallery strip on Julia St.   We had a sampling of cupcake (chocolate with mocha filling) and truffles (raspberry, creme brulee, and orange).  Cupcake was good, mocha filling best part. Rasberry truffle was my fav, love the dark chocolate so it's not cloyingly sweet. The coffee was a wonderful chaser, not overly burnt, smoky, or acidic... I usually have coffee with milk n sugar, forgot this time, but I didn't even need it!  Seating was nice, with a few cafe tables inside. Enough for our 6-girl troop. And service was great, helpful with flavor suggestions and labelling.  Gave 4 of 5 stars because maybe they could benefit from one more equally gracious staff person.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Pulled pork sandwich was Delicious .. BUT! The lucky bun (Asian fusion style ) burger . Was a disappointment for the sole purpose of them using a frozen beef patty :/  the bread was good .. The toppings and sauces were great .. But just killed the flavors with a processed frozen beef patty .. If used a fresh ground meat .. It would have been a great gourmet burger ..",
+      "stars": 2.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2013-09-04 01:30:09",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "PAB1PweErWD3J82ccNRvdg"
+      },
+      "review_id": "zQ-WQotzv7NtuKxfMfpDKQ",
+      "error_type": null,
+      "business_id": "ONKvCIc4eIXG3nutUAFe3w",
+      "original_text": "Pulled pork sandwich was Delicious .. BUT! The lucky bun (Asian fusion style ) burger . Was a disappointment for the sole purpose of them using a frozen beef patty :/  the bread was good .. The toppings and sauces were great .. But just killed the flavors with a processed frozen beef patty .. If used a fresh ground meat .. It would have been a great gourmet burger ..",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.65,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "This is a great place to bring the kids to. They can have juice, a slice of cake, and homemade popsicles. They think it is a tea party. I have tried everything once and my favorites are the homemade doughnuts filled with read bean, the popsicles, the patbingsu, and even the good ol' coffee cream and sugar.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2013-01-27 18:29:40",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "Dg2AUgE5DeN9MzAbVk40Vg"
+      },
+      "review_id": "z9s96krlSZRoN0XKzCVbAA",
+      "error_type": null,
+      "business_id": "8hgo446H2HoYlZocEi1SJw",
+      "original_text": "This is a great place to bring the kids to. They can have juice, a slice of cake, and homemade popsicles. They think it is a tea party. I have tried everything once and my favorites are the homemade doughnuts filled with read bean, the popsicles, the patbingsu, and even the good ol' coffee cream and sugar.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Always awesome!  Best crust ever and super Fresh ingredients and nice staff.  Lots of yummy toppings that aren't offered at other pizza places.   Great salads too! Patio area is a cool place to kick back,have a beer or glass of wine and savor the best pizza in town.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-05-26 02:08:27",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "9-T_Oy39g2KGAo5SyotUeQ"
+      },
+      "review_id": "8mdUFkIoMxInUUOz_Z_jiw",
+      "error_type": null,
+      "business_id": "F1xE--Gb4rNFAwHkNkV31A",
+      "original_text": "Always awesome!  Best crust ever and super Fresh ingredients and nice staff.  Lots of yummy toppings that aren't offered at other pizza places.   Great salads too! Patio area is a cool place to kick back,have a beer or glass of wine and savor the best pizza in town.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "I love this gas station. I work at a hotel on the beach and send guests here just about every day. Also it's the only one on Clearwater Beach that's open 27/7",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-07-25 08:31:31",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "sdOaLa_5SmjyAcOX8UaHgQ"
+      },
+      "review_id": "Hl1Br1bfe4L1LsS-zTI0wA",
+      "error_type": null,
+      "business_id": "WoI4kF2nFFu2Nl8mhFQOcQ",
+      "original_text": "I love this gas station. I work at a hotel on the beach and send guests here just about every day. Also it's the only one on Clearwater Beach that's open 27/7",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Holy bat crap, this place is amazing. Go to place in St. Pete, anything on the menu was good. Food coma!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2018-07-17 00:22:35",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "qW-tsQxYUqLb1gx_Uj-MrQ"
+      },
+      "review_id": "WgOgzilNuRmJn4rlGvBdmg",
+      "error_type": null,
+      "business_id": "L-YdO_NODKXXT3bkS0nUpg",
+      "original_text": "Holy bat crap, this place is amazing. Go to place in St. Pete, anything on the menu was good. Food coma!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This Chipotle location was great! I wanted to thank Chipotle for recognizing teachers for Teacher Appreciation Week! \nThe line was very small and they served quickly as a pose to another location that had the line wrapped around the store! \nTheir food is always fresh, tasteful and fulfilling! \nMy go to is always the bowl with white cilantro lime rice,black beans, steak and all the toppings! \nMust eat with a bag of fresh tortilla chips!!",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2017-05-13 14:09:53",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "HjMKmLryj5emWPXcpBvt6Q"
+      },
+      "review_id": "V8dVnEHMdDNxCX6yFFam2Q",
+      "error_type": null,
+      "business_id": "L7i_5DydYEKwPLfcDBRYDA",
+      "original_text": "This Chipotle location was great! I wanted to thank Chipotle for recognizing teachers for Teacher Appreciation Week! \nThe line was very small and they served quickly as a pose to another location that had the line wrapped around the store! \nTheir food is always fresh, tasteful and fulfilling! \nMy go to is always the bowl with white cilantro lime rice,black beans, steak and all the toppings! \nMust eat with a bag of fresh tortilla chips!!",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Standard Jimmy Johns fare: nothing especially good or bad about this one. Restaurant was very clean.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2013-09-04 02:05:40",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "vx0Hkm2dPnawQBGCso3__w"
+      },
+      "review_id": "Y-FxkPJQiAkgC5-WummstA",
+      "error_type": null,
+      "business_id": "pk7E-3G7Ij39h9HifNz0TA",
+      "original_text": "Standard Jimmy Johns fare: nothing especially good or bad about this one. Restaurant was very clean.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.8,
+      "predicted_sentiment": "NEUTRAL"
+    },
+    {
+      "text": "I Recently vacationed in St. Petersburg with my family. Dooners was definitely my favorite meal of the trip. Great food and incredibly helpful and friendly staff. Would definitely recommend to anyone, and wouldn't hesitate to go again.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2014-06-28 03:00:56",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "syyKcKPFILDysHWmtka-aA"
+      },
+      "review_id": "XMWg7adwVBKqIl_e_TTtuA",
+      "error_type": null,
+      "business_id": "1_hDCN3iioFR3XnUr32ZtA",
+      "original_text": "I Recently vacationed in St. Petersburg with my family. Dooners was definitely my favorite meal of the trip. Great food and incredibly helpful and friendly staff. Would definitely recommend to anyone, and wouldn't hesitate to go again.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Very cool bar attached to the Alexander Hotel. Several vintage cocktails from pre-prohibition are on the menu. None cooler than \"The Elephant in the Room\" a bourbon cocktail which comes in its own decanter filled with cherrywood smoke. You decide how long to let it infuse. Lots of comfortable seating and when it warms up a touch a large beautiful deck with seating and heating overlooks the street life. As an added bonus you can relax and watch people work out through the glass of the new CityWay YMCA. \nAnd yes the truffle oil and sea salt popcorn that greets every patron is as good as it sounds. Get a beer and start collecting bags, once you start you can't stop.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 1,
+        "date": "2016-01-17 16:45:19",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "_lgLNzpzf3qmbwySBakxEw"
+      },
+      "review_id": "BGZ3GtcXhtIEPIkyLVuKDQ",
+      "error_type": null,
+      "business_id": "5RzJ2bjU8bLSaN5SuiUpYA",
+      "original_text": "Very cool bar attached to the Alexander Hotel. Several vintage cocktails from pre-prohibition are on the menu. None cooler than \"The Elephant in the Room\" a bourbon cocktail which comes in its own decanter filled with cherrywood smoke. You decide how long to let it infuse. Lots of comfortable seating and when it warms up a touch a large beautiful deck with seating and heating overlooks the street life. As an added bonus you can relax and watch people work out through the glass of the new CityWay YMCA. \nAnd yes the truffle oil and sea salt popcorn that greets every patron is as good as it sounds. Get a beer and start collecting bags, once you start you can't stop.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "This hotel is a gem in the heart of Philadelphia.\n\nIt's a cozy, quaint, and charming property. The rooms are spacious, modern and gorgeous. \nThe decor is chic and attractive: big wooden desk, hardwood floors, couches and throw pillows: Looks more like a friend's apartment than a hotel. \n\nFree breakfast is always a plus for those of us with limited time. It's not a hot breakfast (I've had so many mass-produced bad ones, so I'm not complaining) but greek yogurt, a huge croissant, an orange and some cranberry juice hits the spot! They leave it at your door though, instead of ringing your bell to wake you. So if you ask for it to be delivered at 7 a.m., check outside your door; by 7:01 it WILL be there. \n\nCoffee, a variety of teas, cold and hot water, as well as ice and a bowl of assorted fruit are available 24/7 in the lobby. There are doorbells for each room, and the hotel can only be accessed after hours if you have a key card. Floors are acessible with a keycard as well, for extra protection. The staff is very polite: one of the few places in Philly where someone will actually say \"good morning\" to you (No, seriously. I lived there for 5 years, so trust me on that). They're also extremely helpful. When I checked in the night before, the gentleman at the reservation desk called to make sure I had a cab waiting for me at 8:15 the next morning so that I could make my speaking engagement on time. While I was getting my clothes ready, my iron was making more wrinkles than it was taking out, so I asked them for a new one and within 30 seconds, I had a brand new model with all the bells and whistles.\n\nI've read a few reviews talking about the noise level of this place. My room was closest to the reception desk and I never heard a peep. There were people out and about, but I didn't hear a thing. And I'm a very light sleeper...\n\nA few things to note:\nIts location on a tight, one way street can cause a little difficulty if you're traveling solo, but if you have one person ...",
+      "stars": 5.0,
+      "status": "healed",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-02-23 21:31:39",
+        "funny": 0,
+        "useful": 1,
+        "user_id": "Sh_vUlHHY2Kuj14eF8NYZQ"
+      },
+      "review_id": "lm7Q8pH26kqx1gbjCJ16ZQ",
+      "error_type": "too_long",
+      "business_id": "s1PNBO9o5jIgNd5YWUDLXQ",
+      "original_text": "This hotel is a gem in the heart of Philadelphia.\n\nIt's a cozy, quaint, and charming property. The rooms are spacious, modern and gorgeous. \nThe decor is chic and attractive: big wooden desk, hardwood floors, couches and throw pillows: Looks more like a friend's apartment than a hotel. \n\nFree breakfast is always a plus for those of us with limited time. It's not a hot breakfast (I've had so many mass-produced bad ones, so I'm not complaining) but greek yogurt, a huge croissant, an orange and some cranberry juice hits the spot! They leave it at your door though, instead of ringing your bell to wake you. So if you ask for it to be delivered at 7 a.m., check outside your door; by 7:01 it WILL be there. \n\nCoffee, a variety of teas, cold and hot water, as well as ice and a bowl of assorted fruit are available 24/7 in the lobby. There are doorbells for each room, and the hotel can only be accessed after hours if you have a key card. Floors are acessible with a keycard as well, for extra protection. The staff is very polite: one of the few places in Philly where someone will actually say \"good morning\" to you (No, seriously. I lived there for 5 years, so trust me on that). They're also extremely helpful. When I checked in the night before, the gentleman at the reservation desk called to make sure I had a cab waiting for me at 8:15 the next morning so that I could make my speaking engagement on time. While I was getting my clothes ready, my iron was making more wrinkles than it was taking out, so I asked them for a new one and within 30 seconds, I had a brand new model with all the bells and whistles.\n\nI've read a few reviews talking about the noise level of this place. My room was closest to the reception desk and I never heard a peep. There were people out and about, but I didn't hear a thing. And I'm a very light sleeper...\n\nA few things to note:\nIts location on a tight, one way street can cause a little difficulty if you're traveling solo, but if you have one person to unload the car while someone else parks, you should be fine. The parking garage they use is about half a block from the hotel, but you have to drive in a big rectangle to get there. \n\nThere's a stand-up shower instead of the traditional bathtub/shower combo. It fits one comfortably enough... provided that you're not too far from average height and build. (My boyfriend is 6'2 with a football player build and he made out okay.)\n\nDon't expect much of a view. The view from our room was of the side of another building. But that's what the city is for... go out there and see something!\n\nOverall, this was an excellent trip and a great find. I highly recommend this hotel to anyone.",
+      "healing_action": "truncated_text",
+      "healing_applied": true,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "Was taken here today by a Colombian friend who needed to satisfy a craving for something cheap and delicious. This place reminds me of Nanzhou, a Yelp favorite, because of the heaping helpings you get for next to nothing. \n\nI got the oxtail soup (Sancocho) with extra rice and plantains to see how it would differ from the Korean-style stuff I was used to at home. Aside from a thicker, stew-like broth and beefier potatoes, it was just as delicious. My friend got a flat steak (Carne Asada) that I think he ate in just under 10 seconds. \n\nRemember Yelp, you're missing out on a lot if you don't visit NE philly once in a while, especially this place.",
+      "stars": 5.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2010-08-22 01:54:23",
+        "funny": 1,
+        "useful": 7,
+        "user_id": "YwMD-AVT67fmYRGxnlRSPA"
+      },
+      "review_id": "Lo2giVeSNDvatEAGZRikWQ",
+      "error_type": null,
+      "business_id": "alUk6OwNhofyc90NDMDY-Q",
+      "original_text": "Was taken here today by a Colombian friend who needed to satisfy a craving for something cheap and delicious. This place reminds me of Nanzhou, a Yelp favorite, because of the heaping helpings you get for next to nothing. \n\nI got the oxtail soup (Sancocho) with extra rice and plantains to see how it would differ from the Korean-style stuff I was used to at home. Aside from a thicker, stew-like broth and beefier potatoes, it was just as delicious. My friend got a flat steak (Carne Asada) that I think he ate in just under 10 seconds. \n\nRemember Yelp, you're missing out on a lot if you don't visit NE philly once in a while, especially this place.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    },
+    {
+      "text": "My friends and I all got one of each that were available to try out. I love the many fun donut flavors they have there. The thing that stood out to me was their fried chicken. I got the chicken sandwich and it was SO GOOD. I highly recommend it.",
+      "stars": 4.0,
+      "status": "sucess",
+      "metadata": {
+        "cool": 0,
+        "date": "2016-07-25 06:28:49",
+        "funny": 0,
+        "useful": 0,
+        "user_id": "WKe2b_EeLBnZ3lZV5WKYGQ"
+      },
+      "review_id": "HBCwI0ahXuni3x030HGKFA",
+      "error_type": null,
+      "business_id": "-Or44IdY51Ukd618kikmtA",
+      "original_text": "My friends and I all got one of each that were available to try out. I love the many fun donut flavors they have there. The thing that stood out to me was their fried chicken. I got the chicken sandwich and it was SO GOOD. I highly recommend it.",
+      "healing_action": null,
+      "healing_applied": false,
+      "confidence_score": 0.95,
+      "predicted_sentiment": "POSITIVE"
+    }
+  ]
+}
