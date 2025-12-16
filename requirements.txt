@@ -1,0 +1,9 @@
+apache-airflow>=3.0.6
+apache-airflow-providers-fab>3.0.0
+
+transformers
+torch
+ollama>=0.6.0
+
+psycopg2-binary>=2.9.8
+pytest
