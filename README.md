@@ -542,22 +542,6 @@ volumes:
 
 ---
 
-## 📈 Performance Benchmarks
-
-Based on testing with llama3.2 on Intel Core i9-13980HX (24 cores, 32 threads):
-
-| Metric | Single Run | Parallel (10 runs) |
-|--------|------------|-------------------|
-| **Processing Rate** | ~15-25 reviews/minute | ~150-250 reviews/minute |
-| **Throughput** | ~900-1,500 reviews/hour | ~9,000-15,000 reviews/hour |
-| **1M Reviews** | ~11-18 hours | ~1.1-1.8 hours |
-| **8M Reviews (full dataset)** | ~88-144 hours (3.7-6 days) | ~8.8-14.4 hours |
-| **Average Latency** | 2.4-4 seconds per review (including retries) | Same per review, 10x parallelism |
-| **Healing Success Rate** | 95-98% | 95-98% |
-| **Model Accuracy** | ~85-90% (sentiment classification) | ~85-90% |
-
-**Hardware**: Intel Core i9-13980HX (13th Gen), 64GB DDR5 RAM, RTX 4070 Laptop (8GB VRAM)
-*Note: Performance can be further improved with GPU acceleration for Ollama*
 
 ### Parallelization Efficiency
 
