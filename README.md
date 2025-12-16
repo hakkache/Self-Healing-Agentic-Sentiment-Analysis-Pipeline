@@ -300,9 +300,8 @@ This creates 10 parallel runs of 800,000 reviews each:
 
 **Expected Outcome**:
 - All 10 child DAG instances run simultaneously
-- Master DAG stays in RUNNING state (~14-22 hours)
+- Master DAG stays in RUNNING state 
 - Once all complete, master DAG shows SUCCESS
-- Total Processing Time: ~14-22 hours (vs. ~130+ hours sequential)
 - Output: 10 separate JSON files (one per batch) in `output/` folder
 
 **Monitoring Tips**:
