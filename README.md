@@ -677,7 +677,7 @@ Contributions are welcome! Areas for contribution:
 
 ---
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions:
 1. Check the **Troubleshooting** section
