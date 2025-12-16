@@ -1,6 +1,6 @@
 # Self-Healing Agentic Sentiment Analysis Pipeline
 
-> **Based on the pioneering work of [Yusuf Ganiyu]([https://www.youtube.com/watch?v=As1QSF3LnvA&t=2010s])** - This project extends and implements the concepts of self-healing data pipelines with agentic AI capabilities for production-scale sentiment analysis.
+> **Based on the pioneering work of [Yusuf Ganiyu](https://www.youtube.com/watch?v=As1QSF3LnvA&t=2010s)** - This project extends and implements the concepts of self-healing data pipelines with agentic AI capabilities for production-scale sentiment analysis.
 
 ## 🎯 Project Overview
 
